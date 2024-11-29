@@ -9,17 +9,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #00a8bd;
+  background-color: #000000;
   color: white;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .nav ul {
@@ -37,16 +32,17 @@ body {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1rem;
   transition: color 0.3s;
 }
 
 .nav ul li a:hover {
-  color: #00bcd4;
+  color: #e7e7e7;
+  text-shadow: 0 0 15px white;
 }
 
 main {
-  padding-top: 10rem;
+  padding-top: 1em;
 }
 
 section {
@@ -63,4 +59,24 @@ footer {
   padding: 1rem;
   background-color: #333;
   color: white;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #d5d5d5, #ffffff, #d5d5d5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 
+      1px 1px 1px rgba(255, 255, 255, 0.2), 
+      1px 1px 1px rgba(0, 0, 0, 0.2),
+      0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.logo span {
+  text-shadow: 
+    1px 1px 1px rgba(255, 255, 255, 0.2), 
+    1px 1px 1px rgba(255, 255, 255, 0.2),
+    0 0 5px rgba(255, 255, 255, 0.3);
 }
