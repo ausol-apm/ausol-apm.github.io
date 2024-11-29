@@ -62,6 +62,8 @@ footer {
 }
 
 .logo {
+  padding-left: 1%;
+  text-decoration: none;
   font-size: 3.5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -79,4 +81,12 @@ footer {
     1px 1px 1px rgba(255, 255, 255, 0.2), 
     1px 1px 1px rgba(255, 255, 255, 0.2),
     0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.plainText {
+  text-align: justify;
+}
+
+.profile {
+  width: 120px;
 }
