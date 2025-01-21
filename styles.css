@@ -42,7 +42,7 @@ body {
 }
 
 main {
-  padding-top: 2em;
+  padding-top: 1%;
 }
 
 section {
@@ -93,16 +93,29 @@ footer {
 
 img {
   border-radius: 20px;
-  margin-right: 10px;
-  width: 25%;
 }
 
-.imgP {
+.imgDivsContainer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(47%, 1fr));
+  gap: 3%;
+}
+
+.imgDiv {
   display: flex;
+  align-items: center;
+  text-align: justify;
+  width: 100%;
 }
 
 .imgContainer {
   display: flex;
   flex-direction: column;
   font-size: 11px;
+  margin-right: 3%;
+  width: 60%;
 }
