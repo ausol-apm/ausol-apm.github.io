@@ -90,3 +90,19 @@ footer {
 .profile {
   width: 120px;
 }
+
+img {
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 25%;
+}
+
+.imgP {
+  display: flex;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+}
