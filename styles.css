@@ -42,7 +42,7 @@ body {
 }
 
 main {
-  padding-top: 1%;
+  padding-top: 6%;
 }
 
 section {
@@ -109,7 +109,6 @@ img {
   display: flex;
   align-items: center;
   text-align: justify;
-  width: 100%;
 }
 
 .imgContainer {
@@ -118,4 +117,11 @@ img {
   font-size: 11px;
   margin-right: 3%;
   width: 60%;
+}
+
+section {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
