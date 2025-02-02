@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Página-1" id="q5sJ7SMmnI5SE294cbQs">
-    <mxGraphModel dx="4680" dy="995" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4523" dy="852" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cxGkE36FdB0smB2CJXEE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HwzYQzNSdAflET0h8osi-15" target="cxGkE36FdB0smB2CJXEE-2">
+        <mxCell id="cxGkE36FdB0smB2CJXEE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HwzYQzNSdAflET0h8osi-15" target="cxGkE36FdB0smB2CJXEE-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="360" as="targetPoint" />
             <Array as="points">
@@ -73,13 +73,13 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-3" target="BgfKHeFuY2_l_r2EsFXZ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-3" value="2.2. Indicadores de producción obtenidos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-3" value="2.2. Indicadores de producción obtenidos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
           <mxGeometry x="-1508" y="240" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-5" target="BgfKHeFuY2_l_r2EsFXZ-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-5" value="2.2.1. Simulación en Tecnomatix obtenida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-5" value="2.2.1. Simulación en Tecnomatix obtenida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-1558" y="320" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-9" target="BgfKHeFuY2_l_r2EsFXZ-15" edge="1">
@@ -250,10 +250,10 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-67" target="BgfKHeFuY2_l_r2EsFXZ-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-67" value="&lt;div&gt;2.4.2.1. Usuario capacitado en Robot Studio&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-67" value="&lt;div&gt;2.4.2.1. Usuario capacitado en Robot Studio&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-86" y="400" width="176" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-68" value="2.4.2.1.1. Fuentes otorgadas por el Ing. Ricardo consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-68" value="2.4.2.1.1. Fuentes otorgadas por el Ing. Ricardo consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-103.5" y="480" width="211" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-46" target="BgfKHeFuY2_l_r2EsFXZ-47" edge="1">
@@ -319,7 +319,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cxGkE36FdB0smB2CJXEE-2" value="3.1.2. Mercado estudiado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="cxGkE36FdB0smB2CJXEE-2" value="3.1.2. Mercado estudiado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="490" y="320" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
