@@ -531,6 +531,142 @@
           <SourceObjectName Value="LogicSRLatch" />
           <TargetObjectName Value="CloseTimer" />
         </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5199" />
+          <SourceSignal Value="SensorOut" />
+          <TargetObject ID="4151" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BackBlueRight" />
+          <TargetObjectName Value="BlueRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5202" />
+          <SourceSignal Value="SensorOut" />
+          <TargetObject ID="4145" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BackBlueLeft" />
+          <TargetObjectName Value="BlueLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5196" />
+          <SourceSignal Value="SensorOut" />
+          <TargetObject ID="4133" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BackRedLeft" />
+          <TargetObjectName Value="RedLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5193" />
+          <SourceSignal Value="SensorOut" />
+          <TargetObject ID="4139" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BackRedRight" />
+          <TargetObjectName Value="RedRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4437" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5214" />
+          <TargetSignal Value="InputB" />
+          <SourceObjectName Value="TakeLeft" />
+          <TargetObjectName Value="BaseRedLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4455" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5214" />
+          <TargetSignal Value="InputA" />
+          <SourceObjectName Value="RedLeft" />
+          <TargetObjectName Value="BaseRedLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5214" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="4128" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BaseRedLeft" />
+          <TargetObjectName Value="RedLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4432" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5213" />
+          <TargetSignal Value="InputB" />
+          <SourceObjectName Value="TakeRight" />
+          <TargetObjectName Value="BaseRedRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4418" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5213" />
+          <TargetSignal Value="InputA" />
+          <SourceObjectName Value="RedRight" />
+          <TargetObjectName Value="BaseRedRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5213" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="4135" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BaseRedRight" />
+          <TargetObjectName Value="RedRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4437" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5216" />
+          <TargetSignal Value="InputA" />
+          <SourceObjectName Value="TakeLeft" />
+          <TargetObjectName Value="BaseBlueLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4456" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5216" />
+          <TargetSignal Value="InputB" />
+          <SourceObjectName Value="BlueLeft" />
+          <TargetObjectName Value="BaseBlueLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5216" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="4140" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BaseBlueLeft" />
+          <TargetObjectName Value="BlueLeft" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4432" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5215" />
+          <TargetSignal Value="InputA" />
+          <SourceObjectName Value="TakeRight" />
+          <TargetObjectName Value="BaseBlueRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="4419" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5215" />
+          <TargetSignal Value="InputB" />
+          <SourceObjectName Value="BlueRight" />
+          <TargetObjectName Value="BaseBlueRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5215" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="4147" />
+          <TargetSignal Value="Execute" />
+          <SourceObjectName Value="BaseBlueRight" />
+          <TargetObjectName Value="BlueRight" />
+        </Element>
+        <Element type="TIOConnection" AllowCycle="false">
+          <SourceObject ID="5276" />
+          <SourceSignal Value="Output" />
+          <TargetObject ID="5212" />
+          <TargetSignal Value="Reset" />
+          <SourceObjectName Value="ResetTimer" />
+          <TargetObjectName Value="LogicSRLatch" />
+        </Element>
       </IOConnections>
       <UserData Value="" />
     </Station>
@@ -585,6 +721,11 @@
         <ObjectRef ID="5202" />
         <ObjectRef ID="5206" />
         <ObjectRef ID="5207" />
+        <ObjectRef ID="5213" />
+        <ObjectRef ID="5214" />
+        <ObjectRef ID="5215" />
+        <ObjectRef ID="5216" />
+        <ObjectRef ID="5276" />
       </SimulatedObjects>
       <EventTable ID="4" />
       <ConnectedState Value="" />
@@ -4526,6 +4667,15 @@
         <ObjectRef ID="5206" />
         <ObjectRef ID="5207" />
         <ObjectRef ID="5212" />
+        <ObjectRef ID="5213" />
+        <ObjectRef ID="5214" />
+        <ObjectRef ID="5215" />
+        <ObjectRef ID="5216" />
+        <ObjectRef ID="5276" />
+        <ObjectRef ID="5285" />
+        <ObjectRef ID="5318" />
+        <ObjectRef ID="5333" />
+        <ObjectRef ID="5343" />
       </Instances>
       <Transform>
         <RowX X="1" Y="0" Z="0" W="0" />
@@ -4578,8 +4728,36 @@
         <ObjectRef ID="5195" />
         <ObjectRef ID="5198" />
         <ObjectRef ID="5201" />
+        <ObjectRef ID="5277" />
+        <ObjectRef ID="5278" />
+        <ObjectRef ID="5279" />
+        <ObjectRef ID="5280" />
+        <ObjectRef ID="5281" />
+        <ObjectRef ID="5282" />
+        <ObjectRef ID="5283" />
+        <ObjectRef ID="5284" />
+        <ObjectRef ID="5310" />
+        <ObjectRef ID="5311" />
+        <ObjectRef ID="5312" />
+        <ObjectRef ID="5313" />
+        <ObjectRef ID="5314" />
+        <ObjectRef ID="5315" />
+        <ObjectRef ID="5316" />
+        <ObjectRef ID="5317" />
+        <ObjectRef ID="5326" />
+        <ObjectRef ID="5327" />
+        <ObjectRef ID="5328" />
+        <ObjectRef ID="5329" />
+        <ObjectRef ID="5330" />
+        <ObjectRef ID="5331" />
+        <ObjectRef ID="5332" />
+        <ObjectRef ID="5342" />
       </Definitions>
-      <Textures />
+      <Textures>
+        <Stream StreamType="TextureStream" StreamID="907771a33d1042049d75ffbc76d04bd2" StreamChangeRef="d8fca79ac4134e00bf7ee3f9dbc9f90a" />
+        <Stream StreamType="TextureStream" StreamID="a8c6b39185ab4ee397415e0e7efabf03" StreamChangeRef="5d57f44926ed4f38bcc9b8e012a2caa4" />
+        <Stream StreamType="TextureStream" StreamID="b251611d7e294436b5e2157738ae01cf" StreamChangeRef="f34552a047a4429981a35478abd8f047" />
+      </Textures>
     </AssemblyRoot>
     <ControllerSimulationConfiguration ID="1194" Name="" Parent="3" AutoStartProgram="true" AutoStopSimulation="true" ExecutionCycle="1">
       <ControllerId Value="{f7847c80-d3fb-4cfa-b3e4-80ef26b270aa}" />
@@ -4735,6 +4913,8 @@
         <ObjectRef ID="5143" />
         <ObjectRef ID="5153" />
         <ObjectRef ID="5155" />
+        <ObjectRef ID="5233" />
+        <ObjectRef ID="5236" />
       </Declarations>
       <Targets>
         <ObjectRef ID="3068" />
@@ -4771,6 +4951,7 @@
         <ObjectRef ID="4268" />
         <ObjectRef ID="4489" />
         <ObjectRef ID="4492" />
+        <ObjectRef ID="5235" />
       </Targets>
       <DefinedRoutineDeclarations>
         <ObjectRef ID="1203" />
@@ -4821,7 +5002,7 @@
         <ObjectRef ID="2244" />
         <ObjectRef ID="2261" />
       </DefinedMoveInstructionGroups>
-      <ActiveWObj ID="3808" />
+      <ActiveWObj ID="1201" />
       <ActiveTool ID="3047" />
       <ActivePath ID="5143" />
       <ActiveProcess ID="1976" />
@@ -7573,7 +7754,7 @@
     <RoutineArgument ID="1980" Name="Conc" Parent="1979" Enabled="false" />
     <RoutineArgument ID="1981" Name="ToPoint" Parent="1979" />
     <RoutineArgument ID="1982" Name="ID" Parent="1979" Enabled="false" />
-    <RoutineArgument ID="1983" Name="Speed" Parent="1979" Value="v7000" />
+    <RoutineArgument ID="1983" Name="Speed" Parent="1979" Value="v3000" />
     <RoutineArgument ID="1984" Name="V" Parent="1979" Enabled="false" />
     <RoutineArgument ID="1985" Name="T" Parent="1979" Enabled="false" />
     <RoutineArgument ID="1986" Name="Zone" Parent="1979" Value="z200" />
@@ -8305,12 +8486,12 @@
       <ComponentType Value="Mechanism" />
       <ClipPlane ID="-1" />
       <JointValues>
-        <Double Value="-0.00787810608744621" />
-        <Double Value="0.358910620212555" />
-        <Double Value="0.206578835844994" />
-        <Double Value="-0.0147017491981387" />
-        <Double Value="-0.565538346767426" />
-        <Double Value="0.0124129075556993" />
+        <Double Value="0.119678474962711" />
+        <Double Value="0.20109635591507" />
+        <Double Value="0.417263627052307" />
+        <Double Value="0.204539492726326" />
+        <Double Value="-0.628344297409058" />
+        <Double Value="-0.166270345449448" />
       </JointValues>
       <CalibFrames />
       <CalibFrameKnownValid />
@@ -8355,8 +8536,8 @@
       <UniqueId Value="{d32692da-a301-4f3d-a192-371d3304e3f6}" />
       <Definition ID="16" DocID="1" />
       <Transform>
-        <RowX X="0.999968967882737" Y="-0.00787802459584032" Z="0" W="0" />
-        <RowY X="0.00787802459584032" Y="0.999968967882737" Z="0" W="0" />
+        <RowX X="0.992847075007657" Y="0.119392988272931" Z="0" W="0" />
+        <RowY X="-0.119392988272931" Y="0.992847075007657" Z="0" W="0" />
         <RowZ X="0" Y="0" Z="1" W="0" />
         <RowT X="0" Y="0" Z="0" W="1" />
       </Transform>
@@ -8385,10 +8566,10 @@
       <UniqueId Value="{a718c32a-6ae2-40c7-a056-4e9af30244c2}" />
       <Definition ID="17" DocID="1" />
       <Transform>
-        <RowX X="0.936250973942821" Y="-0.00737603709465028" Z="-0.351254477363489" W="0" />
-        <RowY X="0.00787802459584032" Y="0.999968967882737" Z="0" W="0" />
-        <RowZ X="0.351243577193358" Y="-0.00276719141206533" Z="0.936280028694462" W="0" />
-        <RowT X="-0.253580232150046" Y="0.00199777330103015" Z="0.162103010374636" W="1" />
+        <RowX X="0.972839396059885" Y="0.116987001854567" Z="-0.199743712969691" W="0" />
+        <RowY X="-0.119392988272931" Y="0.992847075007657" Z="0" W="0" />
+        <RowZ X="0.198314961173126" Y="0.0238479987801853" Z="0.97984817657078" W="0" />
+        <RowT X="-0.148283212451751" Y="-0.0178315233946681" Z="0.0796364104250928" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8415,10 +8596,10 @@
       <UniqueId Value="{f706c8ba-1f4c-4180-9341-95d7c2f1a673}" />
       <Definition ID="18" DocID="1" />
       <Transform>
-        <RowX X="0.844300235514497" Y="-0.00665162443564832" Z="-0.535829140867247" W="0" />
-        <RowY X="0.00787802459584032" Y="0.999968967882737" Z="0" W="0" />
-        <RowZ X="0.535812512954515" Y="-0.00422127515091721" Z="0.84432643675149" W="0" />
-        <RowT X="-0.604368003520966" Y="0.00476137375218439" Z="0.410591302098361" W="1" />
+        <RowX X="0.809001849471396" Y="0.0972850207832567" Z="-0.579699605212099" W="0" />
+        <RowY X="-0.119392988272931" Y="0.992847075007657" Z="0" W="0" />
+        <RowZ X="0.575553057417925" Y="0.0692120681669135" Z="0.814830269268967" W="0" />
+        <RowT X="-0.872965675807721" Y="-0.104976872388509" Z="0.541159184984398" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8445,10 +8626,10 @@
       <UniqueId Value="{42e26d3a-6e93-423a-9359-d8d0b9376d11}" />
       <Definition ID="19" DocID="1" />
       <Transform>
-        <RowX X="0.844300235514497" Y="-0.00665162443565182" Z="-0.535829140867247" W="0" />
-        <RowY X="7.58130857154982E-08" Y="0.999922960361092" Z="-0.0124126283560021" W="0" />
-        <RowZ X="0.535870424925802" Y="0.0104799444214659" Z="0.844235191433503" W="0" />
-        <RowT X="-0.604498884576073" Y="-0.0284633824814003" Z="0.410797516517011" W="1" />
+        <RowX X="0.809001849471396" Y="0.0972850207832533" Z="-0.579699605212099" W="0" />
+        <RowY X="-4.34370495128178E-09" Y="0.986208902649599" Z="0.165505287935683" W="0" />
+        <RowZ X="0.587806096899191" Y="-0.13389408151922" Z="0.797844826631259" W="0" />
+        <RowT X="-0.900657545035382" Y="0.354043025902153" Z="0.579546285345618" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8475,10 +8656,10 @@
       <UniqueId Value="{78241ea4-3dd1-47bb-882e-acdd3a653472}" />
       <Definition ID="20" DocID="1" />
       <Transform>
-        <RowX X="0.999999999999997" Y="-7.58804580957423E-08" Z="-4.95701002467541E-09" W="0" />
-        <RowY X="7.58130827676379E-08" Y="0.999922960361092" Z="-0.0124126283560002" W="0" />
-        <RowZ X="5.89850407406445E-09" Y="0.0124126283559998" Z="0.999922960361095" W="0" />
-        <RowT X="0.3087924628471" Y="-0.0455523347852549" Z="-0.965830063687675" W="1" />
+        <RowX X="1" Y="4.101902720266E-09" Z="1.80281140016447E-09" W="0" />
+        <RowY X="-4.34370777589828E-09" Y="0.986208902649599" Z="0.165505287935685" W="0" />
+        <RowZ X="-1.0990621746032E-09" Y="-0.165505287935685" Z="0.986208902649599" W="0" />
+        <RowT X="0.0625002735547149" Y="0.611541946806448" Z="-0.954832024871846" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8505,10 +8686,10 @@
       <UniqueId Value="{e30961ba-9aa0-4bda-a3ef-c473d628f608}" />
       <Definition ID="21" DocID="1" />
       <Transform>
-        <RowX X="0.999999999999997" Y="-7.58804615869567E-08" Z="-4.95700998133693E-09" W="0" />
-        <RowY X="7.58804613891355E-08" Y="0.999999999999996" Z="-3.95649260055697E-08" W="0" />
-        <RowZ X="4.95701299338949E-09" Y="3.95649256326042E-08" Z="0.999999999999999" W="0" />
-        <RowT X="0.30879246497487" Y="-0.0174998841174206" Z="-0.966004173271599" W="1" />
+        <RowX X="1" Y="4.10189927693403E-09" Z="1.80281082230551E-09" W="0" />
+        <RowY X="-4.10189922998104E-09" Y="1" Z="-2.28489219211703E-09" W="0" />
+        <RowZ X="-1.80281093883107E-09" Y="2.28489219211703E-09" Z="1" W="0" />
+        <RowT X="0.0625002751451871" Y="0.23749999090795" Z="-0.985999904883752" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8535,10 +8716,10 @@
       <UniqueId Value="{15933aaf-5287-4b7b-a373-f2d4e003f268}" />
       <Definition ID="22" DocID="1" />
       <Transform>
-        <RowX X="0.985412998346555" Y="-0.00776334875118112" Z="0.170002803229299" W="0" />
-        <RowY X="0.00787802459583709" Y="0.999968967882738" Z="0" W="0" />
-        <RowZ X="-0.169997527682374" Y="0.00133928626519823" Z="0.985443578747246" W="0" />
-        <RowT X="0.102554869224621" Y="-0.000807954854722245" Z="0.0712360716225976" W="1" />
+        <RowX X="0.988092953474281" Y="0.118821290182895" Z="0.0977436253355909" W="0" />
+        <RowY X="-0.119392988272934" Y="0.992847075007656" Z="0" W="0" />
+        <RowZ X="-0.0970444725150853" Y="-0.0116699035134497" Z="0.995211627597998" W="0" />
+        <RowT X="0.0598408896875997" Y="0.00719605548584661" Z="0.0386853224489606" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8565,10 +8746,10 @@
       <UniqueId Value="{b4f64b4b-e5a7-488b-99a3-38455137eaa2}" />
       <Definition ID="23" DocID="1" />
       <Transform>
-        <RowX X="0.985412998346554" Y="-0.00776334875118237" Z="0.170002803229302" W="0" />
-        <RowY X="0.00787802459584012" Y="0.999968967882737" Z="0" W="0" />
-        <RowZ X="-0.169997527682377" Y="0.00133928626520882" Z="0.985443578747246" W="0" />
-        <RowT X="0.113015704808541" Y="-0.000890368132210974" Z="0.0749098991512063" W="1" />
+        <RowX X="0.988092953474281" Y="0.118821290182892" Z="0.0977436253355939" W="0" />
+        <RowY X="-0.11939298827293" Y="0.992847075007657" Z="0" W="0" />
+        <RowZ X="-0.0970444725150896" Y="-0.0116699035134396" Z="0.995211627597997" W="0" />
+        <RowT X="0.060708105490214" Y="0.00730034091786409" Z="0.0389225025080004" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -8708,7 +8889,7 @@
     <DataDeclaration ID="3047" Name="MoldGripper" Parent="1198" StorageType="1" DataType="tooldata" IsInline="false" FrameSize="0.075" ShowName="false" Dimension1="0" Dimension2="0" Dimension3="0">
       <DeclarationInfo ID="3048" />
       <RoutineName Value="" />
-      <InitialExpression Value="[TRUE,[[34,0,90],[0.707106781,0,-0.707106781,0]],[4.767,[8.216,0,0.071],[1,0,0,0],11555.563,13676.084,20443.392]]" />
+      <InitialExpression Value="[TRUE,[[34,0,90],[0.707106781,0,-0.707106781,0]],[50,[8.216,0,0.071],[1,0,0,0],0.012,0.013676084,0.02]]" />
     </DataDeclaration>
     <RAPIDDeclarationInfo ID="3048" Name="" Parent="3047" Local="false" EnableSync="true">
       <TaskName Value="" />
@@ -8821,10 +9002,10 @@
         <ObjectRef ID="3061" />
       </ChildInstances>
       <Transform>
-        <RowX X="-4.95701299338948E-09" Y="-3.95649256326041E-08" Z="-0.999999999999999" W="0" />
-        <RowY X="7.58804613908327E-08" Y="0.999999999999996" Z="-3.95649260087445E-08" W="0" />
-        <RowZ X="0.999999999999997" Y="-7.58804615869565E-08" Z="-4.95700999118465E-09" W="0" />
-        <RowT X="2.42129247617771" Y="-0.0174999549981638" Z="1.29399581625672" W="1" />
+        <RowX X="1.80281093883107E-09" Y="-2.28489219211703E-09" Z="-1" W="0" />
+        <RowY X="-4.1018992728148E-09" Y="1" Z="-2.28489219951198E-09" W="0" />
+        <RowZ X="1" Y="4.10189927693403E-09" Z="1.80281092945867E-09" W="0" />
+        <RowT X="2.17500027107083" Y="0.237500004737068" Z="1.27400009892469" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -9220,10 +9401,10 @@
     </RAPIDDeclarationInfo>
     <PartDef ID="3150" Name="" Parent="1193">
       <GeoPart StreamType="GeoDataStream" StreamID="9906928c091f40bbab86c74dfcc7d677" StreamChangeRef="29c6a9b334c844e0a5cf4179e44e5a37" />
-      <GfxData StreamType="GfxDataStream" StreamID="f4993354fd4f4649a1f368a11248ff88" StreamChangeRef="c2576de4664e448dba79f5effb45b1e2" />
+      <GfxData StreamType="GfxDataStream" StreamID="f4993354fd4f4649a1f368a11248ff88" StreamChangeRef="8233c13c5c7e4887ac9af0cbeca5cc4e" />
       <BoundingBox>
-        <Min X="-6.103515625E-08" Y="0" Z="-0.0500001220703125" />
-        <Max X="0.500000122070313" Y="0.4" Z="0.0900001220703125" />
+        <Min X="-0.002688232421875" Y="-0.00268817138671875" Z="-0.0526882934570313" />
+        <Max X="0.502688293457031" Y="0.400526245117187" Z="0.0924730529785156" />
       </BoundingBox>
     </PartDef>
     <ComponentInstance ID="3151" Name="BlackLeft_Mold" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
@@ -9617,10 +9798,10 @@
     </RAPIDDeclarationInfo>
     <PartDef ID="3232" Name="" Parent="1193">
       <GeoPart StreamType="GeoDataStream" StreamID="a899b42572004e11a313c28d4cf644c5" StreamChangeRef="1814135e48a34e349c16ad5bbfbde493" />
-      <GfxData StreamType="GfxDataStream" StreamID="00aee65999f347589c974d8b46ffd9d7" StreamChangeRef="688a621ace3848c688c221583ebe0b83" />
+      <GfxData StreamType="GfxDataStream" StreamID="00aee65999f347589c974d8b46ffd9d7" StreamChangeRef="6307eaf211214137a68ee562e879dc22" />
       <BoundingBox>
-        <Min X="0" Y="-0.14" Z="0" />
-        <Max X="0.5" Y="0" Z="0.4" />
+        <Min X="-0.00242720031738281" Y="-0.142427185058594" Z="-0.00242718505859375" />
+        <Max X="0.502427185058594" Y="0.00320388412475586" Z="0.400485473632813" />
       </BoundingBox>
     </PartDef>
     <ComponentInstance ID="3233" Name="BaseMoldLeft" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
@@ -9909,7 +10090,7 @@
         <ObjectRef ID="3847" />
         <ObjectRef ID="3679" />
         <ObjectRef ID="3694" />
-        <ObjectRef ID="4472" />
+        <ObjectRef ID="5217" />
       </RoutineCalls>
     </PathProcedureDeclaration>
     <RAPIDDeclarationInfo ID="3369" Name="" Parent="3368" Local="false" EnableSync="true">
@@ -11128,9 +11309,9 @@
       <Robtarget ID="3804" />
       <Workobject ID="3064" />
       <ReferenceFrame>
-        <RowX X="0.999999999999998" Y="6.00000173999993E-09" Z="-5.79999998199993E-08" W="0" />
-        <RowY X="-5.99999825999993E-09" Y="0.999999999999998" Z="6.00000001739987E-08" W="0" />
-        <RowZ X="5.80000001799993E-08" Y="-5.99999998259987E-08" Z="0.999999999999997" W="0" />
+        <RowX X="0.999999999999998" Y="6.00000173999986E-09" Z="-5.79999998199986E-08" W="0" />
+        <RowY X="-5.99999825999986E-09" Y="0.999999999999998" Z="6.00000001739973E-08" W="0" />
+        <RowZ X="5.80000001799986E-08" Y="-5.99999998259973E-08" Z="0.999999999999997" W="0" />
         <RowT X="-0.485000036812" Y="-0.097499955677" Z="-0.34000005254" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -11770,9 +11951,9 @@
       <Robtarget ID="3989" />
       <Workobject ID="3064" />
       <ReferenceFrame>
-        <RowX X="0.999999999999998" Y="6.00000173999993E-09" Z="-5.79999998199993E-08" W="0" />
-        <RowY X="-5.99999825999993E-09" Y="0.999999999999998" Z="6.00000001739987E-08" W="0" />
-        <RowZ X="5.80000001799993E-08" Y="-5.99999998259987E-08" Z="0.999999999999997" W="0" />
+        <RowX X="0.999999999999998" Y="6.00000173999986E-09" Z="-5.79999998199986E-08" W="0" />
+        <RowY X="-5.99999825999986E-09" Y="0.999999999999998" Z="6.00000001739973E-08" W="0" />
+        <RowZ X="5.80000001799986E-08" Y="-5.99999998259973E-08" Z="0.999999999999997" W="0" />
         <RowT X="-0.485000036812" Y="-0.097499955677" Z="-0.34000005254" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -12338,9 +12519,9 @@
       <Robtarget ID="4117" />
       <Workobject ID="3064" />
       <ReferenceFrame>
-        <RowX X="0.999999999999998" Y="6.00000173999993E-09" Z="-5.79999998199993E-08" W="0" />
-        <RowY X="-5.99999825999993E-09" Y="0.999999999999998" Z="6.00000001739987E-08" W="0" />
-        <RowZ X="5.80000001799993E-08" Y="-5.99999998259987E-08" Z="0.999999999999997" W="0" />
+        <RowX X="0.999999999999998" Y="6.00000173999986E-09" Z="-5.79999998199986E-08" W="0" />
+        <RowY X="-5.99999825999986E-09" Y="0.999999999999998" Z="6.00000001739973E-08" W="0" />
+        <RowZ X="5.80000001799986E-08" Y="-5.99999998259973E-08" Z="0.999999999999997" W="0" />
         <RowT X="-0.485000036812" Y="-0.097499955677" Z="-0.34000005254" W="1" />
       </ReferenceFrame>
       <Color Red="0" Green="0" Blue="0" Alpha="0" />
@@ -14661,17 +14842,17 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Duration">
           <Value>
-            <Double Value="3" />
+            <Double Value="2" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="1341.57352972404" />
+            <Double Value="1155.36663317232" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1384.30626985298" />
+            <Double Value="1783.15684456562" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;J1">
@@ -14795,17 +14976,17 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Duration">
           <Value>
-            <Double Value="3" />
+            <Double Value="2" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="1397.25285911715" />
+            <Double Value="1150.12642233554" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1152.89780088393" />
+            <Double Value="1572.43803076899" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;J1">
@@ -15156,12 +15337,12 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="4123" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[3.50000048828125 -0.13 1.39384985351562]" />
+            <String Value="[0 0 0]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -15248,7 +15429,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -15288,12 +15469,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="597.89203527717" />
+            <Double Value="623.179391599009" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="482.273475128589" />
+            <Double Value="474.227498117095" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -15433,12 +15614,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="610.73875851542" />
+            <Double Value="631.428413687834" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="901.200725104317" />
+            <Double Value="900.051299816961" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -15547,12 +15728,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="611.266514888054" />
+            <Double Value="628.507894198399" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="688.828520352608" />
+            <Double Value="686.529669777895" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -15688,12 +15869,12 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="Output">
@@ -15765,17 +15946,17 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="InputB">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -15847,7 +16028,7 @@
         </Element>
         <Element Key="InputB">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="Output">
@@ -15897,7 +16078,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="3056" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -15989,7 +16170,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -16007,7 +16188,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -16076,7 +16260,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -16086,7 +16270,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -16147,7 +16331,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="-1" />
+            <ObjectRef ID="4123" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -16239,7 +16423,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -16257,7 +16441,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -16422,7 +16609,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -16491,7 +16681,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -16501,7 +16691,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -16623,7 +16813,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="4123" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -16715,7 +16905,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -16760,7 +16950,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="-1" />
+            <ObjectRef ID="3151" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -16852,7 +17042,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -16870,7 +17060,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -16890,7 +17083,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -16926,7 +17122,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -16956,12 +17155,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="615.531844499587" />
+            <Double Value="636.221499672001" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1133.84946236559" />
+            <Double Value="1112.01038190582" />
           </Value>
         </Attribute>
       </Attributes>
@@ -17008,7 +17207,7 @@
         </Element>
         <Element Key="InputB">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="Output">
@@ -17033,12 +17232,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="628.599825632084" />
+            <Double Value="632.048101494153" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1371.54701854349" />
+            <Double Value="1297.98380015269" />
           </Value>
         </Attribute>
       </Attributes>
@@ -17080,7 +17279,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -17090,7 +17289,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -17110,12 +17309,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="846.881720430108" />
+            <Double Value="829.604421579533" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1016.33051171408" />
+            <Double Value="1022.76010941523" />
           </Value>
         </Attribute>
       </Attributes>
@@ -17157,7 +17356,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -17306,12 +17505,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="333.809523809524" />
+            <Double Value="1438.996003996" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="29.6945670136211" />
+            <Double Value="10" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -17395,12 +17594,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="633.594470046083" />
+            <Double Value="630.146194184014" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1566.41167434716" />
+            <Double Value="1439.97489273796" />
           </Value>
         </Attribute>
       </Attributes>
@@ -17447,7 +17646,7 @@
         </Element>
         <Element Key="InputB">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="Output">
@@ -17472,12 +17671,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="858.563748079877" />
+            <Double Value="828.427253827003" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1159.76344086022" />
+            <Double Value="864.576659251025" />
           </Value>
         </Attribute>
       </Attributes>
@@ -17519,7 +17718,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -17674,7 +17873,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -17729,7 +17931,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="3151" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -17821,7 +18023,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -17839,7 +18041,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -17902,7 +18107,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="-1" />
+            <ObjectRef ID="4121" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -17994,7 +18199,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -18012,7 +18217,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -18177,7 +18385,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -18246,7 +18457,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -18256,7 +18467,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -18323,7 +18534,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -18333,7 +18544,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -18452,42 +18663,6 @@
     <RoutineArgument ID="4469" Name="WObj" Parent="4458" Value="LeftBase" />
     <RoutineArgument ID="4470" Name="Corr" Parent="4458" Enabled="false" />
     <RoutineArgument ID="4471" Name="TLoad" Parent="4458" Enabled="false" />
-    <MoveInstructionCall ID="4472" Name="MoveL" Parent="3368" Thickness="2" Reachable="1">
-      <ArgumentList ID="4473" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="4473" Name="" Parent="4472">
-      <RoutineArguments>
-        <ObjectRef ID="4474" />
-        <ObjectRef ID="4475" />
-        <ObjectRef ID="4476" />
-        <ObjectRef ID="4477" />
-        <ObjectRef ID="4478" />
-        <ObjectRef ID="4479" />
-        <ObjectRef ID="4480" />
-        <ObjectRef ID="4481" />
-        <ObjectRef ID="4482" />
-        <ObjectRef ID="4483" />
-        <ObjectRef ID="4484" />
-        <ObjectRef ID="4485" />
-        <ObjectRef ID="4486" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="4474" Name="Conc" Parent="4473" Enabled="false" />
-    <RoutineArgument ID="4475" Name="ToPoint" Parent="4473" Value="RepPointR_Down" />
-    <RoutineArgument ID="4476" Name="ID" Parent="4473" Enabled="false" />
-    <RoutineArgument ID="4477" Name="Speed" Parent="4473" Value="v7000" />
-    <RoutineArgument ID="4478" Name="V" Parent="4473" Enabled="false" />
-    <RoutineArgument ID="4479" Name="T" Parent="4473" Enabled="false" />
-    <RoutineArgument ID="4480" Name="Zone" Parent="4473" Value="fine" />
-    <RoutineArgument ID="4481" Name="Z" Parent="4473" Enabled="false" />
-    <RoutineArgument ID="4482" Name="Inpos" Parent="4473" Enabled="false" />
-    <RoutineArgument ID="4483" Name="Tool" Parent="4473" Value="MoldGripper" />
-    <RoutineArgument ID="4484" Name="WObj" Parent="4473" Value="RightBase" />
-    <RoutineArgument ID="4485" Name="Corr" Parent="4473" Enabled="false" />
-    <RoutineArgument ID="4486" Name="TLoad" Parent="4473" Enabled="false" />
     <DataDeclaration ID="4487" Name="RepPointL_Down" Parent="1198" StorageType="0" DataType="robtarget" IsInline="false" FrameSize="0.075" ShowName="false" Dimension1="0" Dimension2="0" Dimension3="0">
       <Attributes>
         <Attribute Key="ConfigDataAssigned">
@@ -18576,7 +18751,6 @@
       </Attributes>
       <DeclarationInfo ID="4494" />
       <RoutineCalls>
-        <ObjectRef ID="4495" />
         <ObjectRef ID="4510" />
         <ObjectRef ID="4525" />
         <ObjectRef ID="4540" />
@@ -18587,42 +18761,6 @@
       <TaskName Value="" />
       <ModuleName Value="Module1" />
     </RAPIDDeclarationInfo>
-    <MoveInstructionCall ID="4495" Name="MoveL" Parent="4493" Thickness="2" Reachable="1">
-      <ArgumentList ID="4496" />
-      <GroupName Value="Move" />
-      <TemplateGroupName Value="Default" />
-      <Color Red="1" Green="1" Blue="0" Alpha="1" />
-    </MoveInstructionCall>
-    <RoutineArgumentList ID="4496" Name="" Parent="4495">
-      <RoutineArguments>
-        <ObjectRef ID="4497" />
-        <ObjectRef ID="4498" />
-        <ObjectRef ID="4499" />
-        <ObjectRef ID="4500" />
-        <ObjectRef ID="4501" />
-        <ObjectRef ID="4502" />
-        <ObjectRef ID="4503" />
-        <ObjectRef ID="4504" />
-        <ObjectRef ID="4505" />
-        <ObjectRef ID="4506" />
-        <ObjectRef ID="4507" />
-        <ObjectRef ID="4508" />
-        <ObjectRef ID="4509" />
-      </RoutineArguments>
-    </RoutineArgumentList>
-    <RoutineArgument ID="4497" Name="Conc" Parent="4496" Enabled="false" />
-    <RoutineArgument ID="4498" Name="ToPoint" Parent="4496" Value="RepPointL_Down" />
-    <RoutineArgument ID="4499" Name="ID" Parent="4496" Enabled="false" />
-    <RoutineArgument ID="4500" Name="Speed" Parent="4496" Value="v7000" />
-    <RoutineArgument ID="4501" Name="V" Parent="4496" Enabled="false" />
-    <RoutineArgument ID="4502" Name="T" Parent="4496" Enabled="false" />
-    <RoutineArgument ID="4503" Name="Zone" Parent="4496" Value="fine" />
-    <RoutineArgument ID="4504" Name="Z" Parent="4496" Enabled="false" />
-    <RoutineArgument ID="4505" Name="Inpos" Parent="4496" Enabled="false" />
-    <RoutineArgument ID="4506" Name="Tool" Parent="4496" Value="MoldGripper" />
-    <RoutineArgument ID="4507" Name="WObj" Parent="4496" Value="LeftBase" />
-    <RoutineArgument ID="4508" Name="Corr" Parent="4496" Enabled="false" />
-    <RoutineArgument ID="4509" Name="TLoad" Parent="4496" Enabled="false" />
     <MoveInstructionCall ID="4510" Name="MoveL" Parent="4493" Thickness="2" Reachable="1">
       <ArgumentList ID="4511" />
       <GroupName Value="Move" />
@@ -20230,6 +20368,7 @@
       <RoutineCalls>
         <ObjectRef ID="5145" />
         <ObjectRef ID="5147" />
+        <ObjectRef ID="5264" />
         <ObjectRef ID="5149" />
         <ObjectRef ID="5151" />
       </RoutineCalls>
@@ -20259,6 +20398,7 @@
       <RoutineCalls>
         <ObjectRef ID="5165" />
         <ObjectRef ID="5167" />
+        <ObjectRef ID="5268" />
         <ObjectRef ID="5169" />
         <ObjectRef ID="5171" />
       </RoutineCalls>
@@ -20272,6 +20412,7 @@
       <RoutineCalls>
         <ObjectRef ID="5157" />
         <ObjectRef ID="5159" />
+        <ObjectRef ID="5272" />
         <ObjectRef ID="5161" />
         <ObjectRef ID="5163" />
       </RoutineCalls>
@@ -20353,12 +20494,12 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="3151" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[2 -1.5 1.39384997558594]" />
+            <String Value="[0 0 0]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -20368,7 +20509,7 @@
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="151.193919169448" />
+            <Double Value="124.270842246371" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -20445,7 +20586,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -20463,7 +20604,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -20516,12 +20660,12 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="3056" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[1.788306640625 -1.5 1.39384997558594]" />
+            <String Value="[0 0 0]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -20531,7 +20675,7 @@
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="183.451983685577" />
+            <Double Value="337.298137531731" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -20608,7 +20752,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -20626,7 +20770,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -20671,22 +20818,22 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="-1" />
+            <ObjectRef ID="4123" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[0 0 0]" />
+            <String Value="[1.788306640625 -1.5 0.893849975585937]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="810" />
+            <Double Value="15.1282051282051" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="394.20467185762" />
+            <Double Value="342.922620575569" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -20763,7 +20910,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -20781,7 +20928,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -20826,22 +20976,22 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="-1" />
+            <ObjectRef ID="4121" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[0 0 0]" />
+            <String Value="[1.94018981933594 -1.5 0.893849975585937]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="610" />
+            <Double Value="11.2820512820514" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="438.290693362996" />
+            <Double Value="103.675308747612" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -20918,7 +21068,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -20936,7 +21086,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -20991,12 +21144,12 @@
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="770.215053763441" />
+            <Double Value="10" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="484.527252502781" />
+            <Double Value="340.937508913037" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -21091,7 +21244,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -21141,17 +21297,17 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[2 -1.5 0.393849975585937]" />
+            <String Value="[2 -1.5 0.393850036621094]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="570.215053763441" />
+            <Double Value="24.0612076095952" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="457.645532072674" />
+            <Double Value="103.79937822652" />
           </Value>
         </Attribute>
         <Attribute Key="GfxObject.Invisible">
@@ -21246,7 +21402,10 @@
       <SourceFileTime HighPart="0" LowPart="0" />
       <ComponentType Value="Part" />
       <ClipPlane ID="-1" />
-      <Skeleton />
+      <Skeleton>
+        <Bones />
+        <InverseBindMatrices />
+      </Skeleton>
       <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
       <PhysicsGeometry UseOriginal="false" />
       <PhysicsSurfaceVelocity Speed="0" Enabled="false">
@@ -21273,17 +21432,17 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;CurrentTime">
           <Value>
-            <Double Value="81.312" />
+            <Double Value="19.152" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="1152.56724836947" />
+            <Double Value="918.08448974878" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1404.45256981693" />
+            <Double Value="1799.8548686675" />
           </Value>
         </Attribute>
       </Attributes>
@@ -21355,7 +21514,7 @@
       <Attributes>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;StartTime">
           <Value>
-            <Double Value="57" />
+            <Double Value="22" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Interval">
@@ -21370,17 +21529,17 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;CurrentTime">
           <Value>
-            <Double Value="81.312" />
+            <Double Value="19.152" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="1181.44086021505" />
+            <Double Value="917.073044123096" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1180.88479262673" />
+            <Double Value="1616.51697653478" />
           </Value>
         </Attribute>
       </Attributes>
@@ -21456,12 +21615,12 @@
       <Attributes>
         <Attribute Key="DesignerX">
           <Value>
-            <Double Value="912.185470909676" />
+            <Double Value="665.059034128067" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerY">
           <Value>
-            <Double Value="1473.29948432011" />
+            <Double Value="1862.9546567339" />
           </Value>
         </Attribute>
       </Attributes>
@@ -21515,6 +21674,1218 @@
       </SignalValues>
       <RoleObject ID="-1" />
     </SmartComponentInstance>
+    <SmartComponentInstance ID="5213" Name="BaseRedRight" Parent="1193" UIVisible="false" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0" IsSimable="true" Protected="false">
+      <Attributes>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Operator">
+          <Value>
+            <String Value="AND" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Delay">
+          <Value>
+            <Double Value="0" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerX">
+          <Value>
+            <Double Value="1038.91666666667" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerY">
+          <Value>
+            <Double Value="1026.15999258436" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <UniqueId Value="{cc78d2a0-1011-4f55-b7d5-25718af9a507}" />
+      <Definition ID="4" DocID="7" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="SmartComponent" />
+      <ClipPlane ID="-1" />
+      <Properties>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Operator" />
+          <Type Value="System.String" />
+          <Attributes Value="AllowedValues=AND;OR;XOR;NOT;NOP|AutoApply=true|AddToDisplayName=true" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Delay" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Time|MinValue=0|MaxValue=1000" />
+        </Element>
+      </Properties>
+      <SignalDefinitions>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputA" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputB" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="1" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Output" />
+        </Element>
+      </SignalDefinitions>
+      <SignalValues>
+        <Element Key="InputA">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="InputB">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="Output">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+      </SignalValues>
+      <RoleObject ID="-1" />
+    </SmartComponentInstance>
+    <SmartComponentInstance ID="5214" Name="BaseRedLeft" Parent="1193" UIVisible="false" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0" IsSimable="true" Protected="false">
+      <Attributes>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Operator">
+          <Value>
+            <String Value="AND" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Delay">
+          <Value>
+            <Double Value="0" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerX">
+          <Value>
+            <Double Value="1033.375" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerY">
+          <Value>
+            <Double Value="865.868325917692" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <UniqueId Value="{76a522d2-0cdb-4cc2-a062-490a33bdfe3e}" />
+      <Definition ID="4" DocID="7" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="SmartComponent" />
+      <ClipPlane ID="-1" />
+      <Properties>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Operator" />
+          <Type Value="System.String" />
+          <Attributes Value="AllowedValues=AND;OR;XOR;NOT;NOP|AutoApply=true|AddToDisplayName=true" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Delay" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Time|MinValue=0|MaxValue=1000" />
+        </Element>
+      </Properties>
+      <SignalDefinitions>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputA" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputB" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="1" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Output" />
+        </Element>
+      </SignalDefinitions>
+      <SignalValues>
+        <Element Key="InputA">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="InputB">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="Output">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+      </SignalValues>
+      <RoleObject ID="-1" />
+    </SmartComponentInstance>
+    <SmartComponentInstance ID="5215" Name="BaseBlueRight" Parent="1193" UIVisible="false" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0" IsSimable="true" Protected="false">
+      <Attributes>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Operator">
+          <Value>
+            <String Value="AND" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Delay">
+          <Value>
+            <Double Value="0" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerX">
+          <Value>
+            <Double Value="1238.70673076923" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerY">
+          <Value>
+            <Double Value="1026.96319272126" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <UniqueId Value="{34145665-2661-4553-a0bd-e70f6be67cb5}" />
+      <Definition ID="4" DocID="7" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="SmartComponent" />
+      <ClipPlane ID="-1" />
+      <Properties>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Operator" />
+          <Type Value="System.String" />
+          <Attributes Value="AllowedValues=AND;OR;XOR;NOT;NOP|AutoApply=true|AddToDisplayName=true" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Delay" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Time|MinValue=0|MaxValue=1000" />
+        </Element>
+      </Properties>
+      <SignalDefinitions>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputA" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputB" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="1" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Output" />
+        </Element>
+      </SignalDefinitions>
+      <SignalValues>
+        <Element Key="InputA">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="InputB">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="Output">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+      </SignalValues>
+      <RoleObject ID="-1" />
+    </SmartComponentInstance>
+    <SmartComponentInstance ID="5216" Name="BaseBlueLeft" Parent="1193" UIVisible="false" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0" IsSimable="true" Protected="false">
+      <Attributes>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Operator">
+          <Value>
+            <String Value="AND" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Delay">
+          <Value>
+            <Double Value="0" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerX">
+          <Value>
+            <Double Value="1233.61538461538" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerY">
+          <Value>
+            <Double Value="866.134408668188" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <UniqueId Value="{47d29bc4-080e-42d3-a4e5-cb9fd658ff0c}" />
+      <Definition ID="4" DocID="7" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="SmartComponent" />
+      <ClipPlane ID="-1" />
+      <Properties>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Operator" />
+          <Type Value="System.String" />
+          <Attributes Value="AllowedValues=AND;OR;XOR;NOT;NOP|AutoApply=true|AddToDisplayName=true" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Delay" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Time|MinValue=0|MaxValue=1000" />
+        </Element>
+      </Properties>
+      <SignalDefinitions>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputA" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="InputB" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="1" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Output" />
+        </Element>
+      </SignalDefinitions>
+      <SignalValues>
+        <Element Key="InputA">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="InputB">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="Output">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+      </SignalValues>
+      <RoleObject ID="-1" />
+    </SmartComponentInstance>
+    <MoveInstructionCall ID="5217" Name="MoveL" Parent="3368" Thickness="2" Reachable="1">
+      <ArgumentList ID="5218" />
+      <GroupName Value="Move" />
+      <TemplateGroupName Value="Default" />
+      <Color Red="1" Green="1" Blue="0" Alpha="1" />
+    </MoveInstructionCall>
+    <RoutineArgumentList ID="5218" Name="" Parent="5217">
+      <RoutineArguments>
+        <ObjectRef ID="5219" />
+        <ObjectRef ID="5220" />
+        <ObjectRef ID="5221" />
+        <ObjectRef ID="5222" />
+        <ObjectRef ID="5223" />
+        <ObjectRef ID="5224" />
+        <ObjectRef ID="5225" />
+        <ObjectRef ID="5226" />
+        <ObjectRef ID="5227" />
+        <ObjectRef ID="5228" />
+        <ObjectRef ID="5229" />
+        <ObjectRef ID="5230" />
+        <ObjectRef ID="5231" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="5219" Name="Conc" Parent="5218" Enabled="false" />
+    <RoutineArgument ID="5220" Name="ToPoint" Parent="5218" Value="RepPointL_Down" />
+    <RoutineArgument ID="5221" Name="ID" Parent="5218" Enabled="false" />
+    <RoutineArgument ID="5222" Name="Speed" Parent="5218" Value="v7000" />
+    <RoutineArgument ID="5223" Name="V" Parent="5218" Enabled="false" />
+    <RoutineArgument ID="5224" Name="T" Parent="5218" Enabled="false" />
+    <RoutineArgument ID="5225" Name="Zone" Parent="5218" Value="fine" />
+    <RoutineArgument ID="5226" Name="Z" Parent="5218" Enabled="false" />
+    <RoutineArgument ID="5227" Name="Inpos" Parent="5218" Enabled="false" />
+    <RoutineArgument ID="5228" Name="Tool" Parent="5218" Value="MoldGripper" />
+    <RoutineArgument ID="5229" Name="WObj" Parent="5218" Value="LeftBase" />
+    <RoutineArgument ID="5230" Name="Corr" Parent="5218" Enabled="false" />
+    <RoutineArgument ID="5231" Name="TLoad" Parent="5218" Enabled="false" />
+    <DataDeclaration ID="5233" Name="Rest" Parent="1198" StorageType="0" DataType="robtarget" IsInline="false" FrameSize="0.075" ShowName="false" Dimension1="0" Dimension2="0" Dimension3="0">
+      <Attributes>
+        <Attribute Key="ConfigDataAssigned">
+          <Value>
+            <Integer Value="1" />
+          </Value>
+        </Attribute>
+        <Attribute Key="jointvalues">
+          <Value>
+            <String Value="0,-1.13446402549744,1.22173011302948,0,0.523599147796631,0" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <DeclarationInfo ID="5234" />
+      <RoutineName Value="" />
+      <InitialExpression Value="[[981.849731862,0,1187.206458273],[0.953716951,0,0.3007058,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]" />
+    </DataDeclaration>
+    <RAPIDDeclarationInfo ID="5234" Name="" Parent="5233" Local="false" EnableSync="true">
+      <TaskName Value="" />
+      <ModuleName Value="Module1" />
+    </RAPIDDeclarationInfo>
+    <Target ID="5235" Name="Rest" Parent="1198" MultiColored="true" ApproachAxis="2" FrameSize="0.05" ShowReferenceFrame="false" ShowName="false">
+      <Robtarget ID="5233" />
+      <Workobject ID="1201" />
+      <ReferenceFrame>
+        <RowX X="0.819152043833488" Y="0" Z="-0.573576437001573" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0.573576437001573" Y="0" Z="0.819152043833488" W="0" />
+        <RowT X="0.981849731862" Y="0" Z="1.187206458273" W="1" />
+      </ReferenceFrame>
+      <Color Red="0" Green="0" Blue="0" Alpha="0" />
+    </Target>
+    <PathProcedureDeclaration ID="5236" Name="GoRest" Parent="1198" ShowName="false" ZoneVisualization="0" ShowSpeeds="false">
+      <DeclarationInfo ID="5237" />
+      <RoutineCalls>
+        <ObjectRef ID="5238" />
+      </RoutineCalls>
+    </PathProcedureDeclaration>
+    <RAPIDDeclarationInfo ID="5237" Name="" Parent="5236" Local="false" EnableSync="true">
+      <TaskName Value="" />
+      <ModuleName Value="Module1" />
+    </RAPIDDeclarationInfo>
+    <MoveInstructionCall ID="5238" Name="MoveJ" Parent="5236" Thickness="2" Reachable="1">
+      <ArgumentList ID="5239" />
+      <GroupName Value="Move" />
+      <TemplateGroupName Value="Default" />
+      <Color Red="1" Green="1" Blue="0" Alpha="1" />
+    </MoveInstructionCall>
+    <RoutineArgumentList ID="5239" Name="" Parent="5238">
+      <RoutineArguments>
+        <ObjectRef ID="5240" />
+        <ObjectRef ID="5241" />
+        <ObjectRef ID="5242" />
+        <ObjectRef ID="5243" />
+        <ObjectRef ID="5244" />
+        <ObjectRef ID="5245" />
+        <ObjectRef ID="5246" />
+        <ObjectRef ID="5247" />
+        <ObjectRef ID="5248" />
+        <ObjectRef ID="5249" />
+        <ObjectRef ID="5250" />
+        <ObjectRef ID="5251" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="5240" Name="Conc" Parent="5239" Enabled="false" />
+    <RoutineArgument ID="5241" Name="ToPoint" Parent="5239" Value="Rest" />
+    <RoutineArgument ID="5242" Name="ID" Parent="5239" Enabled="false" />
+    <RoutineArgument ID="5243" Name="Speed" Parent="5239" Value="v3000" />
+    <RoutineArgument ID="5244" Name="V" Parent="5239" Enabled="false" />
+    <RoutineArgument ID="5245" Name="T" Parent="5239" Enabled="false" />
+    <RoutineArgument ID="5246" Name="Zone" Parent="5239" Value="z200" />
+    <RoutineArgument ID="5247" Name="Z" Parent="5239" Enabled="false" />
+    <RoutineArgument ID="5248" Name="Inpos" Parent="5239" Enabled="false" />
+    <RoutineArgument ID="5249" Name="Tool" Parent="5239" Value="MoldGripper" />
+    <RoutineArgument ID="5250" Name="WObj" Parent="5239" Value="wobj0" />
+    <RoutineArgument ID="5251" Name="TLoad" Parent="5239" Enabled="false" />
+    <ActionInstructionCall ID="5264" Name="WaitTime" Parent="5143" TrigValidity="0">
+      <ArgumentList ID="5265" />
+      <InstructionTemplateName Value="Default" />
+      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
+    </ActionInstructionCall>
+    <RoutineArgumentList ID="5265" Name="" Parent="5264">
+      <RoutineArguments>
+        <ObjectRef ID="5266" />
+        <ObjectRef ID="5267" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="5266" Name="InPos" Parent="5265" Enabled="false" />
+    <RoutineArgument ID="5267" Name="Time" Parent="5265" Value="23" />
+    <ActionInstructionCall ID="5268" Name="WaitTime" Parent="5153" TrigValidity="0">
+      <ArgumentList ID="5269" />
+      <InstructionTemplateName Value="Default" />
+      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
+    </ActionInstructionCall>
+    <RoutineArgumentList ID="5269" Name="" Parent="5268">
+      <RoutineArguments>
+        <ObjectRef ID="5270" />
+        <ObjectRef ID="5271" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="5270" Name="InPos" Parent="5269" Enabled="false" />
+    <RoutineArgument ID="5271" Name="Time" Parent="5269" Value="23" />
+    <ActionInstructionCall ID="5272" Name="WaitTime" Parent="5155" TrigValidity="0">
+      <ArgumentList ID="5273" />
+      <InstructionTemplateName Value="Default" />
+      <Color Red="1" Green="1" Blue="0.5019608" Alpha="0.5019608" />
+    </ActionInstructionCall>
+    <RoutineArgumentList ID="5273" Name="" Parent="5272">
+      <RoutineArguments>
+        <ObjectRef ID="5274" />
+        <ObjectRef ID="5275" />
+      </RoutineArguments>
+    </RoutineArgumentList>
+    <RoutineArgument ID="5274" Name="InPos" Parent="5273" Enabled="false" />
+    <RoutineArgument ID="5275" Name="Time" Parent="5273" Value="23" />
+    <SmartComponentInstance ID="5276" Name="ResetTimer" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0" IsSimable="true" Protected="false">
+      <Attributes>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;StartTime">
+          <Value>
+            <Double Value="0.1" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Interval">
+          <Value>
+            <Double Value="0" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Repeat">
+          <Value>
+            <Bool Value="false" />
+          </Value>
+        </Attribute>
+        <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;CurrentTime">
+          <Value>
+            <Double Value="413.592" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerX">
+          <Value>
+            <Double Value="439.121776236813" />
+          </Value>
+        </Attribute>
+        <Attribute Key="DesignerY">
+          <Value>
+            <Double Value="1892.66666666667" />
+          </Value>
+        </Attribute>
+      </Attributes>
+      <UniqueId Value="{8b88492e-3f25-407c-be50-04edef05f63c}" />
+      <Definition ID="4" DocID="9" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="SmartComponent" />
+      <ClipPlane ID="-1" />
+      <Properties>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="StartTime" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Time|MinValue=0" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Interval" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Time|MinValue=0" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="false" UIVisible="true">
+          <Id Value="Repeat" />
+          <Type Value="System.Boolean" />
+          <Attributes Value="" />
+        </Element>
+        <Element type="TDynamicProperty" ReadOnly="true" UIVisible="true">
+          <Id Value="CurrentTime" />
+          <Type Value="System.Double" />
+          <Attributes Value="Quantity=Time" />
+        </Element>
+      </Properties>
+      <SignalDefinitions>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="false" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Active" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="1" ReadOnly="false" UIVisible="true" AutoReset="true" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Output" />
+        </Element>
+        <Element type="TIOSignalDef" SignalType="0" ReadOnly="false" UIVisible="true" AutoReset="true" MinValue="0" MaxValue="0" Flags="0">
+          <Name Value="Reset" />
+        </Element>
+      </SignalDefinitions>
+      <SignalValues>
+        <Element Key="Active">
+          <Value>
+            <Integer Value="1" />
+          </Value>
+        </Element>
+        <Element Key="Output">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+        <Element Key="Reset">
+          <Value>
+            <Integer Value="0" />
+          </Value>
+        </Element>
+      </SignalValues>
+      <RoleObject ID="-1" />
+    </SmartComponentInstance>
+    <AssemblyDef ID="5277" Name="" Parent="1193" />
+    <PartDef ID="5278" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="e2c06a77d4ab4fea8ed77e4275b18a73" StreamChangeRef="8d6a40b63b79451797064fffcfad82c9" />
+      <BoundingBox>
+        <Min X="-4.48485302734375" Y="3.91514721679688" Z="0" />
+        <Max X="-4.31514697265625" Y="4.08485278320313" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5279" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="b4fe5c66a6c8493dbf58ed1363fef9ae" StreamChangeRef="f9cba29186b64d33a3294e384aa8c163" />
+      <BoundingBox>
+        <Min X="-4.4" Y="3.91514721679688" Z="0" />
+        <Max X="-2.55264721679688" Y="4.08485278320313" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5280" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="ddb25909829b4a66af5900e22defa3a6" StreamChangeRef="220a2bd2d8204331985728776ebf97d4" />
+      <BoundingBox>
+        <Min X="-2.6375" Y="3.91514721679688" Z="0" />
+        <Max X="-0.790147216796875" Y="4.08485278320313" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5281" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="6492e02ed93e44898d43abce8fad13a0" StreamChangeRef="2d5877908bcf4cf2b9d006b725b36089" />
+      <BoundingBox>
+        <Min X="-0.875" Y="3.91514721679688" Z="0" />
+        <Max X="0.972352783203125" Y="4.08485278320313" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5282" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="01e6cf1bd09a4029b3e47b29bd2e490c" StreamChangeRef="0fc40acec380426da0d4bd738fcdd585" />
+      <BoundingBox>
+        <Min X="0.8875" Y="3.91514721679688" Z="0" />
+        <Max X="2.73485278320313" Y="4.08485278320313" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5283" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="c713ece4d0b74e69b2c71d1dcdc19065" StreamChangeRef="2815fd7e66514305abd2bbd4bcafcd79" />
+      <BoundingBox>
+        <Min X="2.56514721679688" Y="2.41514721679687" Z="0" />
+        <Max X="2.73485278320313" Y="4" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5284" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="958589a706d04ed78dab82ded268be15" StreamChangeRef="1eb045e6f09147f29dd2e919c7aece56" />
+      <BoundingBox>
+        <Min X="2.56514721679688" Y="0.915147216796875" Z="0" />
+        <Max X="2.73485278320313" Y="2.5" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="5285" Name="Fence" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5277" />
+      <ChildInstances>
+        <ObjectRef ID="5286" />
+        <ObjectRef ID="5287" />
+        <ObjectRef ID="5288" />
+        <ObjectRef ID="5289" />
+        <ObjectRef ID="5290" />
+        <ObjectRef ID="5291" />
+        <ObjectRef ID="5292" />
+      </ChildInstances>
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="GraphicComponentGroup" />
+      <ClipPlane ID="-1" />
+    </ComponentInstance>
+    <ComponentInstance ID="5286" Name="Segment 1" Parent="5285" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5278" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5287" Name="Segment 2" Parent="5285" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5279" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5288" Name="Segment 2" Parent="5285" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5280" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5289" Name="Segment 2" Parent="5285" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5281" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5290" Name="Segment 2" Parent="5285" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5282" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5291" Name="Segment 3" Parent="5285" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5283" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5292" Name="Segment 3" Parent="5285" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5284" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <AssemblyDef ID="5310" Name="" Parent="1193" />
+    <PartDef ID="5311" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="6f584d8e9cac4331bbb2383ea092aa3f" StreamChangeRef="64040658389043ccbbf7a59195c1fbbc" />
+      <BoundingBox>
+        <Min X="2.56514721679688" Y="-1.08485278320312" Z="0" />
+        <Max X="2.73485278320313" Y="-0.915147216796875" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5312" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="2c8de4bf0cad4260acd71654c4f43d8c" StreamChangeRef="22634b472e5b48458abccb87a50d050d" />
+      <BoundingBox>
+        <Min X="2.56514721679688" Y="-2.58485278320313" Z="0" />
+        <Max X="2.73485278320313" Y="-1" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5313" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="1b613824ed7f461ba8c3ad4299b67b69" StreamChangeRef="7f8854cfa420432185416f7d9e8bb966" />
+      <BoundingBox>
+        <Min X="2.56514721679688" Y="-4.08485278320313" Z="0" />
+        <Max X="2.73485278320313" Y="-2.5" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5314" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="ff9912773ef642f99421361b23121406" StreamChangeRef="664a5ab056a9421885ab54fd7ec51663" />
+      <BoundingBox>
+        <Min X="0.802647216796875" Y="-4.08485278320313" Z="0" />
+        <Max X="2.65" Y="-3.91514721679688" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5315" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="aecfc5785b2b451baf3818fe380034f7" StreamChangeRef="729b0890aa084b45b20f77cfc2ea13ed" />
+      <BoundingBox>
+        <Min X="-0.959852783203125" Y="-4.08485278320313" Z="0" />
+        <Max X="0.8875" Y="-3.91514721679688" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5316" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="7080f5e1fc0f4a5f9c0c1c256e339b5a" StreamChangeRef="c68db6a1e48649be998e0d2a7104e587" />
+      <BoundingBox>
+        <Min X="-2.72235278320312" Y="-4.08485278320313" Z="0" />
+        <Max X="-0.875" Y="-3.91514721679688" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5317" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="55903368d7b84b998f101d3252d9595b" StreamChangeRef="905bf2e127594715b26e0a812023357e" />
+      <BoundingBox>
+        <Min X="-4.48485302734375" Y="-4.08485278320313" Z="0" />
+        <Max X="-2.6375" Y="-3.91514721679688" Z="2.7" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="5318" Name="Fence_2" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5310" />
+      <ChildInstances>
+        <ObjectRef ID="5319" />
+        <ObjectRef ID="5320" />
+        <ObjectRef ID="5321" />
+        <ObjectRef ID="5322" />
+        <ObjectRef ID="5323" />
+        <ObjectRef ID="5324" />
+        <ObjectRef ID="5325" />
+      </ChildInstances>
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="GraphicComponentGroup" />
+      <ClipPlane ID="-1" />
+    </ComponentInstance>
+    <ComponentInstance ID="5319" Name="Segment 1" Parent="5318" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5311" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5320" Name="Segment 2" Parent="5318" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5312" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5321" Name="Segment 2" Parent="5318" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5313" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5322" Name="Segment 3" Parent="5318" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5314" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5323" Name="Segment 3" Parent="5318" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5315" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5324" Name="Segment 3" Parent="5318" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5316" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5325" Name="Segment 3" Parent="5318" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5317" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <AssemblyDef ID="5326" Name="" Parent="1193" />
+    <PartDef ID="5327" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="8f7470fdedf04cf8917997afbc096b56" StreamChangeRef="8612e80bd04e4c5895a35bf962eaae2d" />
+      <BoundingBox>
+        <Min X="-4.48485302734375" Y="3.91514721679688" Z="0" />
+        <Max X="-4.3151474609375" Y="4.08485278320313" Z="1.4" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5328" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="12de1bea26b94a96b940e1b6049f984e" StreamChangeRef="f09853f3b44f4e5f9432de602ebb304c" />
+      <BoundingBox>
+        <Min X="-4.63188037109375" Y="2.91514721679688" Z="0" />
+        <Max X="-4.31514697265625" Y="3.96999951171875" Z="1.4" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5329" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="24bc651305d34775acadc3289a4608b5" StreamChangeRef="c0d6b5b64db449c1a755725c782ac920" />
+      <BoundingBox>
+        <Min X="-4.4848525390625" Y="1.16514721679688" Z="0" />
+        <Max X="-4.31514697265625" Y="3" Z="1.4" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5330" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="aef666f2cb4f46c080370de65500dd4d" StreamChangeRef="b97d62a175aa4e53b72c06d510b8b96b" />
+      <BoundingBox>
+        <Min X="-4.4848525390625" Y="-0.584852783203125" Z="0" />
+        <Max X="-4.31514697265625" Y="1.25" Z="1.4" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5331" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="d9df2080b34243b08d13dcdc109e438d" StreamChangeRef="656eda9f96a94545b127b3d431ccd99b" />
+      <BoundingBox>
+        <Min X="-4.4848525390625" Y="-2.33485278320313" Z="0" />
+        <Max X="-4.31514697265625" Y="-0.5" Z="1.4" />
+      </BoundingBox>
+    </PartDef>
+    <PartDef ID="5332" Name="" Parent="1193">
+      <GeoPart StreamID="-1" />
+      <GfxData StreamType="GfxDataStream" StreamID="2ffeb59c3ff34226a0fba9b6f5f782c7" StreamChangeRef="b6fc8f6757be41e28ad657d954b0fe77" />
+      <BoundingBox>
+        <Min X="-4.4848525390625" Y="-4.08485278320313" Z="0" />
+        <Max X="-4.31514697265625" Y="-2.25" Z="1.4" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="5333" Name="Fence_3" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5326" />
+      <ChildInstances>
+        <ObjectRef ID="5334" />
+        <ObjectRef ID="5335" />
+        <ObjectRef ID="5336" />
+        <ObjectRef ID="5337" />
+        <ObjectRef ID="5338" />
+        <ObjectRef ID="5339" />
+      </ChildInstances>
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="GraphicComponentGroup" />
+      <ClipPlane ID="-1" />
+    </ComponentInstance>
+    <ComponentInstance ID="5334" Name="Segment 1" Parent="5333" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5327" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5335" Name="Segment 2" Parent="5333" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5328" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5336" Name="Segment 3" Parent="5333" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5329" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5337" Name="Segment 3" Parent="5333" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5330" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5338" Name="Segment 3" Parent="5333" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5331" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <ComponentInstance ID="5339" Name="Segment 3" Parent="5333" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5332" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
+    <PartDef ID="5342" Name="" Parent="1193">
+      <GeoPart StreamType="GeoDataStream" StreamID="078989adcdef4ed6a04596588ce5ce5b" StreamChangeRef="017f6e6966cb471c84fb23cec3d02cda" />
+      <GfxData StreamType="GfxDataStream" StreamID="5a7d1ededfd04126829616c25622e01c" StreamChangeRef="2e76599228704abe850ea08e5f2a2cec" />
+      <BoundingBox>
+        <Min X="1.675" Y="-1.6" Z="-0.02" />
+        <Max X="2.075" Y="-1" Z="1.7" />
+      </BoundingBox>
+    </PartDef>
+    <ComponentInstance ID="5343" Name="MoldsStore" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
+      <Definition ID="5342" />
+      <Transform>
+        <RowX X="1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0" Y="0" Z="0" W="1" />
+      </Transform>
+      <Source Value="" />
+      <SourceFileTime HighPart="0" LowPart="0" />
+      <ComponentType Value="Part" />
+      <ClipPlane ID="-1" />
+      <Skeleton />
+      <PhysicsMaterial SurfaceViscosity="5E-09" SurfaceRoughness="0.7" SurfaceAdhesion="0" SurfaceAdhesionOverlap="0" Density="7800" Damping="0.05" PoissonsRatio="0.3" Restitution="0.5" YoungsModulus="200000000000" CableDamping="0" CableYoungsModulus="0" />
+      <PhysicsGeometry UseOriginal="false" />
+      <PhysicsSurfaceVelocity Speed="0" Enabled="false">
+        <Direction X="0" Y="0" Z="0" />
+        <ControlPoints />
+      </PhysicsSurfaceVelocity>
+    </ComponentInstance>
   </Objects>
   <ReferencedDocuments>
     <DocRef ID="1" DocumentType="ComponentLibrary" Location="%ABB.RobotStudio.Models.IRB6640%\IRB6640_130_320_G_04.rslib" RelativeLocation="..\..\..\..\..\..\..\..\..\..\ProgramData\ABB\DistributionPackages2\ABB.RobotStudio.Models.IRB6640-1.1\RobotStudio\LibraryComponents\IRB6640_130_320_G_04.rslib" GUID="{6CB3D901-0C3F-4F91-83FC-EC000C23F33A}" />

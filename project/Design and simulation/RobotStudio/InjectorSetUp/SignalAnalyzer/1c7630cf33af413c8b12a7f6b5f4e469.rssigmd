@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Metadata Version="1">
+  <Id>1c7630cf33af413c8b12a7f6b5f4e469</Id>
+  <Name>Recording-2</Name>
+  <EventCount>1</EventCount>
+  <StartedUtc>2025-02-03T09:09:56.2525332Z</StartedUtc>
+  <EndedUtc>2025-02-03T09:09:56.6216013Z</EndedUtc>
+  <TotalTime>0</TotalTime>
+  <Signals />
+  <Sources>
+    <Source type="Station" id="{bf07f3e5-2a6f-414f-8485-fb20c9f6ef65}" displayName="InjectorSetUp" />
+  </Sources>
+</Metadata>
