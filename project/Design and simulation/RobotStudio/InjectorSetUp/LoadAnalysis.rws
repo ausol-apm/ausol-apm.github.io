@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <workspace name="C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\RobotStudio\InjectorSetUp\LoadAnalysis.rws">
+    <project name="New Project" station="" robotserienumber="" robotmodel="" eoatooling="" processshop="" engineer="" telephone="" email="" remarks="">
+      <robot name="IRB4600-60/2.05" file="">
+      </robot>
+      <loadcase name="New Loadcase" wristdown="">
+        <load name="ToolAndMold" mass="56.229" cgx="-10" cgy="0" cgz="90" jx="1.113132665" jy="1.788384138" jz="0.773824179" TCPx="0" TCPy="0" TCPz="0" TCPq1="1" TCPq2="0" TCPq3="0" TCPq4="0" type="PAYLOAD" />
+      </loadcase>
+    </project>
+  </workspace>
+</xml>
