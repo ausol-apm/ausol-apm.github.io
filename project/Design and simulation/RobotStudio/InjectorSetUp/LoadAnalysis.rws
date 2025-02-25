@@ -5,7 +5,8 @@
       <robot name="IRB4600-60/2.05" file="">
       </robot>
       <loadcase name="New Loadcase" wristdown="">
-        <load name="ToolAndMold" mass="56.229" cgx="-10" cgy="0" cgz="90" jx="1.113132665" jy="1.788384138" jz="0.773824179" TCPx="0" TCPy="0" TCPz="0" TCPq1="1" TCPq2="0" TCPq3="0" TCPq4="0" type="PAYLOAD" />
+        <load name="Mold" mass="58.476" cgx="30" cgy="0" cgz="0" jx="1.109204831" jy="1.784538831" jz="0.770828363" TCPx="0" TCPy="0" TCPz="0" TCPq1="1" TCPq2="0" TCPq3="0" TCPq4="0" type="PAYLOAD" />
+        <load name="MoldGripper" mass="2.366" cgx="0.255" cgy="0" cgz="9.024" jx="0.003927834" jy="0.003845307" jz="0.002995816" TCPx="-20" TCPy="0" TCPz="90" TCPq1="0.707107" TCPq2="0" TCPq3="0.707107" TCPq4="0" type="TOOL" />
       </loadcase>
     </project>
   </workspace>
