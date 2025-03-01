@@ -5022,7 +5022,8 @@
       <ClipPlane ID="-1" />
       <Attachments>
         <ObjectRef ID="9254" />
-        <ObjectRef ID="14457" />
+        <ObjectRef ID="14458" />
+        <ObjectRef ID="14459" />
       </Attachments>
       <Definitions>
         <ObjectRef ID="4368" />
@@ -8205,12 +8206,12 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="9278" />
+            <ObjectRef ID="9280" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[1.20000036621094 -0.399989959716797 1.53501000976562]" />
+            <String Value="[1.20000036621094 -0.399989990234375 1.53501000976562]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -8706,7 +8707,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -8716,7 +8717,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -8783,7 +8784,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -8793,7 +8794,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -8915,7 +8916,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="-1" />
+            <ObjectRef ID="9278" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -9007,7 +9008,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -9074,7 +9075,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -9084,7 +9085,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -9129,7 +9130,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="9280" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -9221,7 +9222,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -9425,7 +9426,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -9435,7 +9436,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -9557,7 +9558,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="9278" />
+            <ObjectRef ID="9280" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -10007,7 +10008,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -10688,7 +10689,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="9274" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -10780,7 +10781,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -11061,7 +11062,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -11071,7 +11072,7 @@
         </Element>
         <Element Key="Output">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -11188,7 +11189,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[-0.249999923706055 1.74998999023437 1.436]" />
+            <String Value="[-0.249999877929688 1.74998999023437 1.436]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -11310,12 +11311,12 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="-1" />
+            <ObjectRef ID="9278" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[0 0 0]" />
+            <String Value="[0.25 -1.74998999023437 1.435]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -11402,7 +11403,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -11437,12 +11438,12 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="9280" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[0.25 -1.74998999023437 0.935]" />
+            <String Value="[0 0 0]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -11529,7 +11530,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -11564,12 +11565,12 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPart">
           <Value>
-            <ObjectRef ID="9274" />
+            <ObjectRef ID="-1" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[0.249999938964844 1.74998999023437 0.935]" />
+            <String Value="[0 0 0]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -11656,7 +11657,7 @@
         </Element>
         <Element Key="SensorOut">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -11823,7 +11824,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;SensedPoint">
           <Value>
-            <String Value="[-0.249999969482422 1.74998999023437 0.435000030517578]" />
+            <String Value="[0.249999969482422 1.74998999023437 0.435]" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -12234,7 +12235,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -12311,7 +12312,7 @@
       <SignalValues>
         <Element Key="InputA">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
         <Element Key="InputB">
@@ -12500,7 +12501,7 @@
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;CurrentTime">
           <Value>
-            <Double Value="163.248" />
+            <Double Value="192.816" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -12614,11 +12615,11 @@
       <ClipPlane ID="-1" />
       <JointValues>
         <Double Value="1.57079648971558" />
-        <Double Value="0.283016234636307" />
-        <Double Value="-0.0363426581025124" />
+        <Double Value="0.440557241439819" />
+        <Double Value="0.27126008272171" />
         <Double Value="0" />
-        <Double Value="-0.246673569083214" />
-        <Double Value="7.74067299147418E-09" />
+        <Double Value="-0.71181732416153" />
+        <Double Value="1.83864052871741E-08" />
       </JointValues>
       <CalibFrames />
       <CalibFrameKnownValid />
@@ -12734,10 +12735,10 @@
         <ObjectRef ID="5351" />
       </ChildInstances>
       <Transform>
-        <RowX X="-1.56439288991928E-07" Y="0.960217514415556" Z="-0.279253155773731" W="0" />
+        <RowX X="-1.47364062019766E-07" Y="0.904514171640602" Z="-0.426443564028458" W="0" />
         <RowY X="-0.999999999999987" Y="-1.62920679552645E-07" Z="0" W="0" />
-        <RowZ X="-4.54961172584604E-08" Y="0.279253155773727" Z="0.960217514415568" W="0" />
-        <RowT X="2.13863346948125E-08" Y="-0.13126837713072" Z="0.0685616326246966" W="1" />
+        <RowZ X="-6.94764784004644E-08" Y="0.426443564028452" Z="0.904514171640614" W="0" />
+        <RowT X="3.1668448739976E-08" Y="-0.194379544231191" Z="0.121893108742876" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -12803,10 +12804,10 @@
         <ObjectRef ID="5354" />
       </ChildInstances>
       <Transform>
-        <RowX X="-1.57989074614483E-07" Y="0.969730029980501" Z="-0.244179583409407" W="0" />
+        <RowX X="-1.23359631242732E-07" Y="0.757176031073107" Z="-0.653210883228656" W="0" />
         <RowY X="-0.999999999999987" Y="-1.62920679552645E-07" Z="0" W="0" />
-        <RowZ X="-3.97819070477386E-08" Y="0.244179583409404" Z="0.969730029980514" W="0" />
-        <RowT X="1.36862239348027E-08" Y="-0.0840054339063533" Z="0.0491537982478409" W="1" />
+        <RowZ X="-1.06421563630464E-07" Y="0.653210883228648" Z="0.757176031073117" W="0" />
+        <RowT X="7.90060672498441E-08" Y="-0.484935779916153" Z="0.367114095694569" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -12868,10 +12869,10 @@
     <MechanismLinkInstance ID="5355" Name="Link4" Parent="5344" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="29" DocID="1" />
       <Transform>
-        <RowX X="-1.57989071123E-07" Y="0.969730029980501" Z="-0.244179583409407" W="0" />
-        <RowY X="-0.999999999999987" Y="-1.62920676228081E-07" Z="0" W="0" />
-        <RowZ X="-3.97819072985063E-08" Y="0.244179583409404" Z="0.969730029980514" W="0" />
-        <RowT X="1.36862237174984E-08" Y="-0.0840054339063534" Z="0.0491537982478407" W="1" />
+        <RowX X="-1.23359627751249E-07" Y="0.757176031073107" Z="-0.653210883228656" W="0" />
+        <RowY X="-0.999999999999987" Y="-1.6292067697021E-07" Z="0" W="0" />
+        <RowZ X="-1.06421563724204E-07" Y="0.653210883228648" Z="0.757176031073117" W="0" />
+        <RowT X="7.90060667860072E-08" Y="-0.484935779916153" Z="0.367114095694569" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -12897,10 +12898,10 @@
     <MechanismLinkInstance ID="5356" Name="Link5" Parent="5344" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="30" DocID="1" />
       <Transform>
-        <RowX X="-1.62920679613877E-07" Y="0.999999999999987" Z="-7.4505802916125E-09" W="0" />
+        <RowX X="-1.62920679613877E-07" Y="0.999999999999987" Z="0" W="0" />
         <RowY X="-0.999999999999987" Y="-1.62920679613877E-07" Z="0" W="0" />
-        <RowZ X="0" Y="7.4505802916125E-09" Z="1" W="0" />
-        <RowT X="-4.31739873348437E-08" Y="0.265000084376883" Z="-0.27551387339602" W="1" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="-4.31739888038455E-08" Y="0.265000102020816" Z="-0.755513887985162" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -12926,10 +12927,10 @@
     <MechanismLinkInstance ID="5357" Name="Link6" Parent="5344" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="31" DocID="1" />
       <Transform>
-        <RowX X="-1.62920676122394E-07" Y="0.999999999999987" Z="-7.4505802916125E-09" W="0" />
-        <RowY X="-0.999999999999987" Y="-1.62920676064721E-07" Z="7.74066925681385E-09" W="0" />
-        <RowZ X="7.74066804296016E-09" Y="7.45058155272817E-09" Z="1" W="0" />
-        <RowT X="-5.53268478942916E-08" Y="0.265000084376881" Z="-0.27551387339602" W="1" />
+        <RowX X="-1.62920676122394E-07" Y="0.999999999999987" Z="0" W="0" />
+        <RowY X="-0.999999999999986" Y="-1.62920676122394E-07" Z="1.83864017247126E-08" W="0" />
+        <RowZ X="1.83864017247124E-08" Y="0" Z="1" W="0" />
+        <RowT X="-7.2040649067542E-08" Y="0.265000102020811" Z="-0.755513887985161" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -22271,7 +22272,7 @@
       <SignalValues>
         <Element Key="Active">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -22342,7 +22343,7 @@
       <SignalValues>
         <Element Key="Active">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -22504,7 +22505,7 @@
       <Attributes>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;ValueA">
           <Value>
-            <Double Value="0" />
+            <Double Value="2" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Operator">
@@ -22580,7 +22581,7 @@
       <Attributes>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Count">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="2" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -22647,7 +22648,7 @@
       <Attributes>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;ValueA">
           <Value>
-            <Double Value="0" />
+            <Double Value="2" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Operator">
@@ -22708,7 +22709,7 @@
       <SignalValues>
         <Element Key="Output">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -22718,7 +22719,7 @@
       <Attributes>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;ValueA">
           <Value>
-            <Double Value="3" />
+            <Double Value="2" />
           </Value>
         </Attribute>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Operator">
@@ -22784,7 +22785,7 @@
       <SignalValues>
         <Element Key="Output">
           <Value>
-            <Integer Value="1" />
+            <Integer Value="0" />
           </Value>
         </Element>
       </SignalValues>
@@ -23600,7 +23601,7 @@
       <SignalValues>
         <Element Key="Active">
           <Value>
-            <Integer Value="0" />
+            <Integer Value="1" />
           </Value>
         </Element>
       </SignalValues>
@@ -23766,10 +23767,10 @@
         <ObjectRef ID="9252" />
       </ChildInstances>
       <Transform>
-        <RowX X="-7.74066804296016E-09" Y="-7.45058155272818E-09" Z="-1" W="0" />
-        <RowY X="-0.999999999999987" Y="-1.62920676064719E-07" Z="7.74066925681384E-09" W="0" />
-        <RowZ X="-1.62920676122392E-07" Y="0.999999999999987" Z="-7.45058029161321E-09" W="0" />
-        <RowT X="-2.50083257742284E-07" Y="1.53500009607428" Z="1.29448611714174" W="1" />
+        <RowX X="-1.83864017247124E-08" Y="0" Z="-1" W="0" />
+        <RowY X="-0.999999999999986" Y="-1.62920676122392E-07" Z="1.83864017247122E-08" W="0" />
+        <RowZ X="-1.62920676122392E-07" Y="0.999999999999987" Z="0" W="0" />
+        <RowT X="-2.50083257035184E-07" Y="1.5350001020208" Z="0.814486112014838" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -24102,10 +24103,10 @@
     <ComponentInstance ID="9272" Name="3. BlueL" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="9271" />
       <Transform>
-        <RowX X="0.999999999999998" Y="0" Z="-6.63134566010495E-08" W="0" />
-        <RowY X="0" Y="0.999999999999995" Z="9.81369329412065E-08" W="0" />
-        <RowZ X="6.63134566010491E-08" Y="-9.81369329412067E-08" Z="0.999999999999993" W="0" />
-        <RowT X="-0.249999974139939" Y="1.55000007634905" Z="0.498898657400059" W="1" />
+        <RowX X="0.999999999999996" Y="9.09986492176059E-08" Z="1.46659257604035E-08" W="0" />
+        <RowY X="-9.09986482255644E-08" Y="0.999999999999994" Z="-6.76425954764392E-08" W="0" />
+        <RowZ X="-1.46659319157882E-08" Y="6.76425941418595E-08" Z="0.999999999999998" W="0" />
+        <RowT X="-0.250000007659695" Y="1.55000011905901" Z="0.498432234303829" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -24133,10 +24134,10 @@
     <ComponentInstance ID="9274" Name="2. RedL" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="9273" />
       <Transform>
-        <RowX X="0.999999999999994" Y="9.09986475492584E-08" Z="5.51945921446164E-08" W="0" />
-        <RowY X="-9.09986487505344E-08" Y="0.999999999999996" Z="2.17643758183621E-08" W="0" />
-        <RowZ X="-5.51945901640873E-08" Y="-2.17643808409953E-08" Z="0.999999999999998" W="0" />
-        <RowT X="-0.250000015989451" Y="1.55000014674185" Z="0.997712089224891" W="1" />
+        <RowX X="0.999999999999997" Y="-7.27458373233212E-08" Z="-1.06429313773007E-08" W="0" />
+        <RowY X="7.27458386522031E-08" Y="0.99999999999999" Z="1.24860577647085E-07" W="0" />
+        <RowZ X="1.06429222942133E-08" Y="-1.24860578421313E-07" Z="0.999999999999992" W="0" />
+        <RowT X="-0.249999998450585" Y="1.5500000175257" Z="1.01994880217401" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -24164,10 +24165,10 @@
     <ComponentInstance ID="9276" Name="1. BlackL" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="9275" />
       <Transform>
-        <RowX X="0.999999999999997" Y="-7.42948071643383E-08" Z="-3.59209620200073E-09" W="0" />
-        <RowY X="7.42948071056923E-08" Y="0.999999999999997" Z="-1.63264221350436E-08" W="0" />
-        <RowZ X="3.5920974149691E-09" Y="1.63264218681694E-08" Z="1" W="0" />
-        <RowT X="-0.249999957497289" Y="1.55000006420343" Z="1.50094284074389" W="1" />
+        <RowX X="0.99999999999999" Y="-3.64588194627255E-08" Z="1.38653853722343E-07" W="0" />
+        <RowY X="3.64588333985838E-08" Y="0.999999999999994" Z="-1.0050826397507E-07" W="0" />
+        <RowZ X="-1.3865385005793E-07" Y="1.00508269030227E-07" Z="0.999999999999985" W="0" />
+        <RowT X="-0.249999907200962" Y="1.55000009615242" Z="1.50070576000207" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -24195,10 +24196,10 @@
     <ComponentInstance ID="9278" Name="1. BlackR" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="9277" />
       <Transform>
-        <RowX X="-0.999999999999963" Y="-1.8764094911994E-07" Z="1.95559417330329E-07" W="0" />
-        <RowY X="1.8764098939375E-07" Y="-0.999999999999961" Z="2.05941552721954E-07" W="0" />
-        <RowZ X="1.95559378687253E-07" Y="2.05941589416909E-07" Z="0.99999999999996" W="0" />
-        <RowT X="1.70000038176648" Y="-0.199999845011425" Z="1.59990237626087" W="1" />
+        <RowX X="-1" Y="0" Z="0" W="0" />
+        <RowY X="0" Y="-1" Z="0" W="0" />
+        <RowZ X="0" Y="0" Z="1" W="0" />
+        <RowT X="0.25" Y="-1.55" Z="1.5" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -24226,10 +24227,10 @@
     <ComponentInstance ID="9280" Name="2. RedR" Parent="1193" PickingEnabled="true" Detectable="true" PhysicsMotionControl="0">
       <Definition ID="9279" />
       <Transform>
-        <RowX X="-0.999999999999999" Y="0" Z="4.29140918356984E-08" W="0" />
-        <RowY X="0" Y="-1" Z="0" W="0" />
-        <RowZ X="4.29140918356984E-08" Y="0" Z="0.999999999999999" W="0" />
-        <RowT X="0.250000008819841" Y="-1.55000003279059" Z="0.999432836056024" W="1" />
+        <RowX X="-0.999999999999991" Y="-1.2293787574387E-07" Z="4.96674235696971E-08" W="0" />
+        <RowY X="1.2293787752401E-07" Y="-0.999999999999992" Z="3.58412101526526E-08" W="0" />
+        <RowZ X="4.96674191634545E-08" Y="3.58412162586599E-08" Z="0.999999999999998" W="0" />
+        <RowT X="1.70000034759923" Y="-0.199999955381646" Z="1.59937151028523" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -24260,7 +24261,7 @@
         <RowX X="-1" Y="0" Z="0" W="0" />
         <RowY X="0" Y="-1" Z="0" W="0" />
         <RowZ X="0" Y="0" Z="1" W="0" />
-        <RowT X="0.249999999999999" Y="-1.55" Z="0.500000000000002" W="1" />
+        <RowT X="0.25" Y="-1.55" Z="0.500000000000001" W="1" />
       </Transform>
       <Source Value="" />
       <SourceFileTime HighPart="0" LowPart="0" />
@@ -32625,7 +32626,7 @@
       <Attributes>
         <Attribute Key="&lt;f9d86f70-b630-415c-bebe-591ae83bc39f&gt;Count">
           <Value>
-            <Integer Value="3" />
+            <Integer Value="5" />
           </Value>
         </Attribute>
         <Attribute Key="DesignerX">
@@ -32692,20 +32693,36 @@
       <ArgumentList ID="14456" />
     </RsPathCallInstruction>
     <RoutineArgumentList ID="14456" Name="" Parent="14455" />
-    <Attachment ID="14457" Name="" Parent="1193" PhysicsRestoreMotionControl="0">
+    <Attachment ID="14458" Name="" Parent="1193" PhysicsRestoreMotionControl="0">
       <SourceObject ID="9263" />
-      <TargetObject ID="9278" />
+      <TargetObject ID="9280" />
       <OffsetTransform>
-        <RowX X="0.999999999999963" Y="1.95559417330322E-07" Z="-1.87640949119933E-07" W="0" />
-        <RowY X="-1.87640989393743E-07" Y="2.05941552721945E-07" Z="-0.999999999999961" W="0" />
-        <RowZ X="-1.95559378687246E-07" Y="0.99999999999996" Z="2.059415894169E-07" W="0" />
-        <RowT X="-0.500000381766476" Y="-0.230097623739132" Z="0.290000154988575" W="1" />
+        <RowX X="0.999999999999991" Y="4.96674235696967E-08" Z="-1.22937875743869E-07" W="0" />
+        <RowY X="-1.22937877524009E-07" Y="3.58412101526525E-08" Z="-0.999999999999992" W="0" />
+        <RowZ X="-4.96674191634541E-08" Y="0.999999999999998" Z="3.58412162586598E-08" W="0" />
+        <RowT X="-0.500000347599226" Y="-0.230628489714773" Z="0.290000044618354" W="1" />
       </OffsetTransform>
       <OriginalTransform>
-        <RowX X="-0.999999999999988" Y="0" Z="1.55995412368921E-07" W="0" />
-        <RowY X="1.23352507242385E-14" Y="-0.999999999999997" Z="7.90744454398833E-08" W="0" />
-        <RowZ X="1.55995412368921E-07" Y="7.90744454398842E-08" Z="0.999999999999985" W="0" />
-        <RowT X="0.250000018127338" Y="-1.5500000043758" Z="1.49982813615891" W="1" />
+        <RowX X="-0.999999999999993" Y="9.09986443711909E-08" Z="8.06966399536366E-08" W="0" />
+        <RowY X="-9.0998645019828E-08" Y="-0.999999999999996" Z="-8.03796578394711E-09" W="0" />
+        <RowZ X="8.06966392221923E-08" Y="-8.03797312723194E-09" Z="0.999999999999997" W="0" />
+        <RowT X="0.25000001193825" Y="-1.5500001048669" Z="0.998993530442501" W="1" />
+      </OriginalTransform>
+    </Attachment>
+    <Attachment ID="14459" Name="" Parent="1193" PhysicsRestoreMotionControl="0">
+      <SourceObject ID="9252" />
+      <TargetObject ID="9274" />
+      <OffsetTransform>
+        <RowX X="0.999999999999972" Y="2.35666513445712E-07" Z="-7.74347034741169E-09" W="0" />
+        <RowY X="2.35666512478856E-07" Y="-0.999999999999964" Z="-1.2486057898462E-07" W="0" />
+        <RowZ X="-7.74349977286873E-09" Y="1.2486057715974E-07" Z="-0.999999999999992" W="0" />
+        <RowT X="-0.249999749701248" Y="4.37649749218672E-08" Z="-0.205462685562579" W="1" />
+      </OffsetTransform>
+      <OriginalTransform>
+        <RowX X="0.999999999999969" Y="-2.46652512171133E-07" Z="-3.7773879527697E-08" W="0" />
+        <RowY X="2.46652520179695E-07" Y="0.999999999999947" Z="2.12013361559365E-07" W="0" />
+        <RowZ X="3.77738272340667E-08" Y="-2.12013370876381E-07" Z="0.999999999999977" W="0" />
+        <RowT X="1.20000034314253" Y="0.199999939328785" Z="1.59994877695095" W="1" />
       </OriginalTransform>
     </Attachment>
   </Objects>
