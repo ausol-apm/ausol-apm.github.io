@@ -1,244 +1,326 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.9.1">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Página-1" id="q5sJ7SMmnI5SE294cbQs">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4016" dy="601" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HwzYQzNSdAflET0h8osi-1" target="zI43d2FHKdrEC87unYx5-31">
+        <mxCell id="HwzYQzNSdAflET0h8osi-17" value="3.1.1.2. Indicadores economicos estudiados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="288" y="400" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HwzYQzNSdAflET0h8osi-15" target="BgfKHeFuY2_l_r2EsFXZ-89" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="300" />
+              <mxPoint x="276" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxGkE36FdB0smB2CJXEE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HwzYQzNSdAflET0h8osi-15" target="cxGkE36FdB0smB2CJXEE-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="300" />
+              <mxPoint x="580" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwzYQzNSdAflET0h8osi-15" value="3.1. Oferta comercial definida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+          <mxGeometry x="330" y="240" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zI43d2FHKdrEC87unYx5-30" target="HwzYQzNSdAflET0h8osi-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="geauqjZHRdObFVSJ-sEf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HwzYQzNSdAflET0h8osi-1" target="zI43d2FHKdrEC87unYx5-30">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="278" y="90" />
-              <mxPoint x="-659" y="90" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="zI43d2FHKdrEC87unYx5-30" value="3. Evaluación económica determinada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="342.5" y="160" width="155" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HwzYQzNSdAflET0h8osi-1" target="eFpd0V_BJ993Bv4dlYoM-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1385.3529411764705" y="120" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="278" y="90" />
-              <mxPoint x="1328" y="90" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="K9VHAz8Z8y00O2l8GgqR-8" value="3.1.1.1. Presupuesto reportado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="128" y="400" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HwzYQzNSdAflET0h8osi-1" value="Juguetes de plástico fabricados" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1;labelBorderColor=none;arcSize=22;" vertex="1" parent="1">
-          <mxGeometry x="163" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HwzYQzNSdAflET0h8osi-17" value="1.2. Indicadores obtenidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-707" y="260" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="HwzYQzNSdAflET0h8osi-15" value="1.3. Oferta comercial definida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-587" y="260" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zI43d2FHKdrEC87unYx5-30" target="HwzYQzNSdAflET0h8osi-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-657" y="190" />
-              <mxPoint x="-657" y="190" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI43d2FHKdrEC87unYx5-30" target="HwzYQzNSdAflET0h8osi-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-657" y="220" />
-              <mxPoint x="-532" y="220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI43d2FHKdrEC87unYx5-30" target="K9VHAz8Z8y00O2l8GgqR-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-657" y="220" />
-              <mxPoint x="-773" y="220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zI43d2FHKdrEC87unYx5-30" value="1. Evaluación económica determinada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-737" y="140" width="155" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="K9VHAz8Z8y00O2l8GgqR-52">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="278.090909090909" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zI43d2FHKdrEC87unYx5-31" target="zI43d2FHKdrEC87unYx5-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="278" y="220" />
-              <mxPoint x="-227" y="220" />
-            </Array>
-            <mxPoint x="278.090909090909" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zI43d2FHKdrEC87unYx5-31" target="K9VHAz8Z8y00O2l8GgqR-48">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="278" y="220" />
-              <mxPoint x="1063" y="220" />
-            </Array>
-            <mxPoint x="278.090909090909" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zI43d2FHKdrEC87unYx5-31" value="2. Automatización implementada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="223" y="140" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="K9VHAz8Z8y00O2l8GgqR-56">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-227" y="330" />
-              <mxPoint x="-387" y="330" />
-            </Array>
-            <mxPoint x="-227" y="320" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI43d2FHKdrEC87unYx5-32" target="K9VHAz8Z8y00O2l8GgqR-57">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7QkryRCTY_poe_iIpccH-20" target="BgfKHeFuY2_l_r2EsFXZ-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zI43d2FHKdrEC87unYx5-32" target="K9VHAz8Z8y00O2l8GgqR-64">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-227" y="330" />
-              <mxPoint x="-67" y="330" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="7QkryRCTY_poe_iIpccH-20" value="1. Planeación del proyecto desarrollada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1;arcSize=24;" parent="1" vertex="1">
+          <mxGeometry x="-2342.75" y="160" width="173.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zI43d2FHKdrEC87unYx5-32" value="2.1. Industria 4.0 incorporada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="-282" y="260" width="110" height="40" as="geometry" />
+        <mxCell id="7QkryRCTY_poe_iIpccH-23" value="1.1.1. EDT realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-2470" y="320" width="108" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-8" value="1.1. Presupuesto reportado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-827" y="260" width="108" height="40" as="geometry" />
+        <mxCell id="7QkryRCTY_poe_iIpccH-25" value="1.1.3. Cronograma planeado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-2140" y="320" width="108" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-48" target="K9VHAz8Z8y00O2l8GgqR-71">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-1" target="BgfKHeFuY2_l_r2EsFXZ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-48" target="K9VHAz8Z8y00O2l8GgqR-75">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-1" target="7QkryRCTY_poe_iIpccH-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1063" y="330" />
-              <mxPoint x="1203" y="330" />
+              <mxPoint x="-953" y="140" />
+              <mxPoint x="-2256" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-48" target="K9VHAz8Z8y00O2l8GgqR-69">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-1" target="zI43d2FHKdrEC87unYx5-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1063" y="330" />
-              <mxPoint x="913" y="330" />
+              <mxPoint x="-953" y="140" />
+              <mxPoint x="420" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-48" value="2.3. Una etapa con participación robótica" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="993" y="260" width="140" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-1" value="Propuesta de planta de juguetes completa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1;labelBorderColor=none;arcSize=22;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-1098" y="40" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-51" value="2.2.1. Simulación analizada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;gradientColor=none;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="33" y="370" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="eFpd0V_BJ993Bv4dlYoM-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-52" target="K9VHAz8Z8y00O2l8GgqR-54">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-3" target="BgfKHeFuY2_l_r2EsFXZ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eFpd0V_BJ993Bv4dlYoM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-52" target="K9VHAz8Z8y00O2l8GgqR-51">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="278" y="330" />
-              <mxPoint x="88" y="330" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-3" value="2.2. Indicadores de producción obtenidos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-1508" y="240" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-52" target="K9VHAz8Z8y00O2l8GgqR-55">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="278" y="330" />
-              <mxPoint x="508" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-52" target="3VKLXPrjO2fGtk7UREUC-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="278" y="330" />
-              <mxPoint x="728" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-52" value="2.2. Gestión de producción planteada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="193" y="260" width="170" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-54" value="2.2.2. Aspectos pre-automatización considerados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;gradientColor=none;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="173" y="370" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-55" target="K9VHAz8Z8y00O2l8GgqR-80">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="508" y="450" />
-              <mxPoint x="427" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-55" target="K9VHAz8Z8y00O2l8GgqR-86">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="508" y="450" />
-              <mxPoint x="597" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-55" value="2.2.3. Comunicación con el sistema MES propuesta" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="403" y="370" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-56" value="2.1.1. Diagramas P&amp;amp;ID de las etapas creados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-457" y="370" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-57" target="K9VHAz8Z8y00O2l8GgqR-58">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-5" target="BgfKHeFuY2_l_r2EsFXZ-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-57" value="2.1.2. Arquitectura de control definida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="-297" y="370" width="140" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-5" value="2.2.1. Simulación en Tecnomatix obtenida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1558" y="320" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-58" value="2.1.2.1. Comunicaciones utilizadas descritas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-302" y="480" width="150" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-9" target="BgfKHeFuY2_l_r2EsFXZ-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-953" y="220" />
+              <mxPoint x="-1872" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-64" value="2.1.3. Tecnologías 4.0 determinadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-137" y="370" width="140" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-9" target="BgfKHeFuY2_l_r2EsFXZ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-953" y="220" />
+              <mxPoint x="-1433" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-69" value="2.3.1. Robotización justificada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="853" y="370" width="120" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-9" target="BgfKHeFuY2_l_r2EsFXZ-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-953" y="220" />
+              <mxPoint x="-569" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9VHAz8Z8y00O2l8GgqR-71" target="K9VHAz8Z8y00O2l8GgqR-73">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-9" value="2. Propuesta diseñada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-1028" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-13" target="BgfKHeFuY2_l_r2EsFXZ-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-840" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-13" target="BgfKHeFuY2_l_r2EsFXZ-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-569" y="300" />
+              <mxPoint x="-469" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-13" value="2.3. Siemens NX y STUDIO 5000 conectados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF00;" parent="1" vertex="1">
+          <mxGeometry x="-694" y="240" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-14" target="BgfKHeFuY2_l_r2EsFXZ-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-828" y="380" />
+              <mxPoint x="-977" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-14" target="BgfKHeFuY2_l_r2EsFXZ-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-828" y="380" />
+              <mxPoint x="-689" y="380" />
+              <mxPoint x="-689" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-14" value="2.3.1. Componentes involucrados en las rutinas SCADA, modelados y acondicionados en NX" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+          <mxGeometry x="-988" y="320" width="314" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-15" target="BgfKHeFuY2_l_r2EsFXZ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-71" value="2.3.2. Celda robotizada diseñada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="993" y="370" width="140" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-15" value="2.1 Linea de producción diseñada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
+          <mxGeometry x="-1967" y="240" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-73" value="2.3.2.1. Modelado en RobotStudio realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="993" y="480" width="140" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-16" target="BgfKHeFuY2_l_r2EsFXZ-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-75" value="2.3.3. Riesgos identificados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="1153" y="370" width="100" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-16" value="2.1.1. Lista de maquinaria requerida completada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1997" y="400" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eFpd0V_BJ993Bv4dlYoM-20" value="3&lt;span style=&quot;background-color: initial;&quot;&gt;. Digital Factory&amp;nbsp; incorporado&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99FF;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1273" y="140" width="110" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-17" target="BgfKHeFuY2_l_r2EsFXZ-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-80" value="2.2.3.1. Sistema SCADA incorporado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="353" y="480" width="149" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-17" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Diagramas P&amp;amp;ID de las etapas elaborados&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+          <mxGeometry x="-781" y="400" width="183" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-86" value="2.2.3.2. Controladores PLC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;implementados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="523" y="480" width="149" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-18" value="2.1.1.1.1. Proceso de producción investigado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1964.5" y="560" width="185" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3VKLXPrjO2fGtk7UREUC-1" value="2.2.4. Selección de maquinaria y equipos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;gradientColor=none;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="623" y="370" width="210" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-19" target="BgfKHeFuY2_l_r2EsFXZ-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-20" value="1. Planeación del proyecto desarrollada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1;arcSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-1160" y="140" width="155" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-19" value="2.1. Interacción entre los componentes establecida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1997" y="320" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-23" value="1.2. Planta identificada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-1290" y="260" width="108" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-20" target="BgfKHeFuY2_l_r2EsFXZ-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-25" value="1.2. Cronograma" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" vertex="1" parent="1">
-          <mxGeometry x="-1150" y="260" width="108" height="40" as="geometry" />
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-20" value="2.1.1.1. Procesos y metodos de producción seleccionados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1994.5" y="480" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-31" target="BgfKHeFuY2_l_r2EsFXZ-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-31" target="BgfKHeFuY2_l_r2EsFXZ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-31" value="2.2.1.1. Usuario capacitado en Tecnomatix" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1558" y="400" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-33" value="2.2.1.1.1. Fuentes de Siemens consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1696" y="480" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-34" value="2.2.1.1.2. Fuentes adicionales consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1406" y="480" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-38" target="BgfKHeFuY2_l_r2EsFXZ-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-38" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Siemens NX&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-1087" y="400" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-39" value="2.3.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-1102" y="480" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-41" value="2.3.1.2.1. Comunicaciones utilizadas descritas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="480" width="182" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-46" target="BgfKHeFuY2_l_r2EsFXZ-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-47" target="BgfKHeFuY2_l_r2EsFXZ-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-47" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.2.1.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Studio 5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-579" y="560" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-48" value="2.3.2.1.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-575" y="640" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-57" target="BgfKHeFuY2_l_r2EsFXZ-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-57" target="BgfKHeFuY2_l_r2EsFXZ-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-57" value="2.4. Celda robotica diseñada&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FFFF33;" parent="1" vertex="1">
+          <mxGeometry x="-179" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-58" target="BgfKHeFuY2_l_r2EsFXZ-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-58" value="2.4.1. Robotización justificada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-282" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-61" target="BgfKHeFuY2_l_r2EsFXZ-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-61" value="2.4.2. Modelado en RobotStudio realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-68" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-62" value="2.4.1.1.1. Riesgos identificados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-292.5" y="480" width="141" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-63" target="BgfKHeFuY2_l_r2EsFXZ-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-63" value="2.4.1.1. Parametros de seguridad establecidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-312" y="400" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-67" target="BgfKHeFuY2_l_r2EsFXZ-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-67" value="&lt;div&gt;2.4.2.1. Usuario capacitado en Robot Studio&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-86" y="400" width="176" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-68" value="2.4.2.1.1. Fuentes otorgadas por el Ing. Ricardo consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-103.5" y="480" width="211" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-46" target="BgfKHeFuY2_l_r2EsFXZ-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-74" target="BgfKHeFuY2_l_r2EsFXZ-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-74" value="2.3.2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Comunicación con el sistema MES propuesta&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=light-dark(#ff99ff, #ff70ff);" parent="1" vertex="1">
+          <mxGeometry x="-574" y="320" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-82" value="1.1.2. Roles repartidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="-2326" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-84" target="BgfKHeFuY2_l_r2EsFXZ-82" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-84" target="7QkryRCTY_poe_iIpccH-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2256" y="300" />
+              <mxPoint x="-2086" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-84" target="7QkryRCTY_poe_iIpccH-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2256" y="300" />
+              <mxPoint x="-2416" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-84" value="1.1. Entregables delimitados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="-2310" y="240" width="108" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-89" target="HwzYQzNSdAflET0h8osi-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-89" target="K9VHAz8Z8y00O2l8GgqR-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-89" value="3.1.1. Factores economicos calculados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="185.5" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-37" target="BgfKHeFuY2_l_r2EsFXZ-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-354" y="485" as="sourcePoint" />
+            <mxPoint x="-469" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-46" value="2.3.2.1.1. Controladores PLC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;implementados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+          <mxGeometry x="-543.5" y="480" width="149" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-37" value="2.3.2.1. Rutinas grafcet programadas en Studio 5000" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+          <mxGeometry x="-557" y="400" width="176" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-9" target="BgfKHeFuY2_l_r2EsFXZ-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-953" y="220" />
+              <mxPoint x="-109" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxGkE36FdB0smB2CJXEE-2" value="3.1.2. Mercado estudiado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="490" y="320" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
