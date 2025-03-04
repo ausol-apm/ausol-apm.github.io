@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Página-1" id="q5sJ7SMmnI5SE294cbQs">
-    <mxGraphModel dx="4016" dy="601" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4244" dy="929" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HwzYQzNSdAflET0h8osi-15" value="3.1. Oferta comercial definida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+        <mxCell id="HwzYQzNSdAflET0h8osi-15" value="3.1. Oferta comercial definida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="330" y="240" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zI43d2FHKdrEC87unYx5-30" target="HwzYQzNSdAflET0h8osi-15" edge="1">
@@ -42,10 +42,10 @@
         <mxCell id="7QkryRCTY_poe_iIpccH-20" value="1. Planeación del proyecto desarrollada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1;arcSize=24;" parent="1" vertex="1">
           <mxGeometry x="-2342.75" y="160" width="173.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-23" value="1.1.1. EDT realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="7QkryRCTY_poe_iIpccH-23" value="1.1.1. EDT realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-2470" y="320" width="108" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7QkryRCTY_poe_iIpccH-25" value="1.1.3. Cronograma planeado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="7QkryRCTY_poe_iIpccH-25" value="1.1.3. Cronograma planeado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-2140" y="320" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-1" target="BgfKHeFuY2_l_r2EsFXZ-9" edge="1">
@@ -142,7 +142,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-14" value="2.3.1. Componentes involucrados en las rutinas SCADA, modelados y acondicionados en NX" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-14" value="2.3.1. Componentes involucrados en las rutinas SCADA, modelados y acondicionados en NX" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-988" y="320" width="314" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-15" target="BgfKHeFuY2_l_r2EsFXZ-19" edge="1">
@@ -160,7 +160,7 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-17" target="BgfKHeFuY2_l_r2EsFXZ-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-17" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Diagramas P&amp;amp;ID de las etapas elaborados&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-17" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Diagramas P&amp;amp;ID de las etapas elaborados&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-781" y="400" width="183" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-18" value="2.1.1.1.1. Proceso de producción investigado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
@@ -196,13 +196,13 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-38" target="BgfKHeFuY2_l_r2EsFXZ-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-38" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Siemens NX&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-38" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Siemens NX&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-1087" y="400" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-39" value="2.3.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-1102" y="480" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-41" value="2.3.1.2.1. Comunicaciones utilizadas descritas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-41" value="2.3.1.2.1. Comunicaciones utilizadas descritas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-780" y="480" width="182" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-46" target="BgfKHeFuY2_l_r2EsFXZ-47" edge="1">
@@ -211,7 +211,7 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-47" target="BgfKHeFuY2_l_r2EsFXZ-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-47" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.2.1.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Studio 5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-47" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.2.1.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Studio 5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-579" y="560" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-48" value="2.3.2.1.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
@@ -229,13 +229,13 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-58" target="BgfKHeFuY2_l_r2EsFXZ-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-58" value="2.4.1. Robotización justificada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-58" value="2.4.1. Robotización justificada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-282" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-61" target="BgfKHeFuY2_l_r2EsFXZ-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-61" value="2.4.2. Modelado en RobotStudio realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-61" value="2.4.2. Modelado en RobotStudio realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-68" y="320" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-62" value="2.4.1.1.1. Riesgos identificados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
@@ -262,7 +262,7 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-74" target="BgfKHeFuY2_l_r2EsFXZ-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-74" value="2.3.2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Comunicación con el sistema MES propuesta&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=light-dark(#ff99ff, #ff70ff);" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-74" value="2.3.2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Comunicación con el sistema SCADA propuesta&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-574" y="320" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-82" value="1.1.2. Roles repartidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
@@ -287,7 +287,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-84" value="1.1. Entregables delimitados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-84" value="1.1. Entregables delimitados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-2310" y="240" width="108" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-89" target="HwzYQzNSdAflET0h8osi-17" edge="1">
@@ -296,7 +296,7 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-89" target="K9VHAz8Z8y00O2l8GgqR-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-89" value="3.1.1. Factores economicos calculados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-89" value="3.1.1. Factores economicos calculados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="185.5" y="320" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-37" target="BgfKHeFuY2_l_r2EsFXZ-46" edge="1">
@@ -305,10 +305,10 @@
             <mxPoint x="-469" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-46" value="2.3.2.1.1. Controladores PLC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;implementados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-46" value="2.3.2.1.1. Controladores PLC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;implementados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-543.5" y="480" width="149" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-37" value="2.3.2.1. Rutinas grafcet programadas en Studio 5000" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#000000;fillColor=#FF99FF;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-37" value="2.3.2.1. Rutinas grafcet programadas en Studio 5000" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-557" y="400" width="176" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-9" target="BgfKHeFuY2_l_r2EsFXZ-57" edge="1">
@@ -319,7 +319,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cxGkE36FdB0smB2CJXEE-2" value="3.1.2. Mercado estudiado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="cxGkE36FdB0smB2CJXEE-2" value="3.1.2. Mercado estudiado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="490" y="320" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
