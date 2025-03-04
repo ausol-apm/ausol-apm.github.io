@@ -1,7 +1,7 @@
-**AUTOMATION SOLUTIONS**
+**AUTOMATION SOLUTIONS**  
 Propuesta de automatización de linea de producción de 4 juguetes.
 
-**Integrantes**
+**Integrantes**  
 - Yovany Esneider Vargas Gutierrez
 - Brian Enrique Muñoz Garcia
 - Joyner Stiven Caballero Abril
