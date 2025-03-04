@@ -1,6 +1,0 @@
-MODULE CalibData
-    PERS tooldata MoldGripper:=[TRUE,[[-20,0,90],[0.707106781,0,-0.707106781,0]],[2.366,[-0.255,0,9.024],[1,0,0,0],0.003927834,0.003845307,0.002995816]];
-    TASK PERS wobjdata LeftBase:=[FALSE,TRUE,"",[[2000,400,1150],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
-    TASK PERS wobjdata MoldsStore:=[FALSE,TRUE,"",[[910,-1000,1600],[0.707106781,0,0,-0.707106781]],[[0,0,0],[1,0,0,0]]];
-    TASK PERS wobjdata RightBase:=[FALSE,TRUE,"",[[3000,-180,1150],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
-ENDMODULE
