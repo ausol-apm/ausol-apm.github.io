@@ -1,4 +1,4 @@
-**AUTOMATION SOLUTIONS**  
+**AUTOMATION SOLUTIONS - AUSOL**
 Propuesta de automatización de linea de producción de 4 juguetes.
 
 **Integrantes**  
