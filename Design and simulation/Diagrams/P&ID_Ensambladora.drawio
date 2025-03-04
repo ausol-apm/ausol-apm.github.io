@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="8AjHJ8k8LELxyBqOEljF">
+    <mxGraphModel dx="1224" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-1" value="Ensambladora" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="351" y="370" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-2" value="" style="verticalLabelPosition=bottom;outlineConnect=0;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.misc.conveyor_(belt);rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="311" y="205" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-3" value="M" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="297" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-4" value="&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;width: 100%; height: 100%;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ZT&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; " style="html=1;outlineConnect=0;align=center;dashed=0;aspect=fixed;shape=mxgraph.pid2inst.discInst;mounting=field" vertex="1" parent="1">
+          <mxGeometry x="297" y="250" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="347" y="184.09000000000003" as="sourcePoint" />
+            <mxPoint x="397" y="184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="347" y="274.83000000000004" as="sourcePoint" />
+            <mxPoint x="397" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="420.16999999999996" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-8" value="&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;ZT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; " style="html=1;outlineConnect=0;align=center;dashed=0;aspect=fixed;shape=mxgraph.pid2inst.discInst;mounting=field" vertex="1" parent="1">
+          <mxGeometry x="237" y="410" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="297" y="439.16999999999996" as="sourcePoint" />
+            <mxPoint x="357" y="439.16999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-10" value="Tampografía" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="348.5" y="585" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-13" value="Control de calidad" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="351" y="810" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="7Q9w5T1QgkRYLXgVVXFn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422.66999999999996" y="585" as="sourcePoint" />
+            <mxPoint x="422.66999999999996" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422.66999999999996" y="810" as="sourcePoint" />
+            <mxPoint x="422.66999999999996" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="869.17" as="sourcePoint" />
+            <mxPoint x="550" y="869.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-23" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="546.5" y="840" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Q9w5T1QgkRYLXgVVXFn-24" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Diagrama&amp;nbsp; P&amp;amp;ID proceso de ensamble, tampografía y control de calidad&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="33" width="790" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
