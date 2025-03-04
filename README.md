@@ -7,7 +7,7 @@ Propuesta de automatización de linea de producción de 4 juguetes.
 - Joyner Stiven Caballero Abril
 - Camilo Andres Apraez Zamora
 
-Se optó por montar la página web en Google Sites, para acceder a ella dirigirse a [Visita mi sitio web](https://sites.google.com/unal.edu.co/ausol-automation-solutions).
+Se optó por montar la página web en Google Sites, para acceder a ella dirigirse a [Ausol Site](https://sites.google.com/unal.edu.co/ausol-automation-solutions).
 
 *Automatización de Procesos de Manufactura  
 Universidad Nacional de Colombia  
