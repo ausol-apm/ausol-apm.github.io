@@ -1,10 +1,10 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram name="Página-1" id="q5sJ7SMmnI5SE294cbQs">
     <mxGraphModel dx="4244" dy="929" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HwzYQzNSdAflET0h8osi-17" value="3.1.1.2. Indicadores economicos estudiados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="HwzYQzNSdAflET0h8osi-17" value="3.1.1.2. Indicadores economicos estudiados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="288" y="400" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HwzYQzNSdAflET0h8osi-15" target="BgfKHeFuY2_l_r2EsFXZ-89" edge="1">
@@ -33,7 +33,7 @@
         <mxCell id="zI43d2FHKdrEC87unYx5-30" value="3. Evaluación económica determinada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF33;strokeColor=#000000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="342.5" y="160" width="155" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K9VHAz8Z8y00O2l8GgqR-8" value="3.1.1.1. Presupuesto reportado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="K9VHAz8Z8y00O2l8GgqR-8" value="3.1.1.1. Presupuesto reportado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="128" y="400" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7QkryRCTY_poe_iIpccH-20" target="BgfKHeFuY2_l_r2EsFXZ-84" edge="1">
@@ -73,13 +73,13 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-3" target="BgfKHeFuY2_l_r2EsFXZ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-3" value="2.2. Indicadores de producción obtenidos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-3" value="2.2. Indicadores de producción obtenidos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF00;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
           <mxGeometry x="-1508" y="240" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-5" target="BgfKHeFuY2_l_r2EsFXZ-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-5" value="2.2.1. Simulación en Tecnomatix obtenida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-5" value="2.2.1. Simulación en Tecnomatix obtenida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1558" y="320" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-9" target="BgfKHeFuY2_l_r2EsFXZ-15" edge="1">
@@ -148,13 +148,13 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-15" target="BgfKHeFuY2_l_r2EsFXZ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-15" value="2.1 Linea de producción diseñada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-15" value="2.1 Linea de producción diseñada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF00;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;arcSize=22;" parent="1" vertex="1">
           <mxGeometry x="-1967" y="240" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-16" target="BgfKHeFuY2_l_r2EsFXZ-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-16" value="2.1.1. Lista de maquinaria requerida completada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-16" value="2.1.1. Lista de maquinaria requerida completada" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1997" y="400" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-17" target="BgfKHeFuY2_l_r2EsFXZ-41" edge="1">
@@ -163,19 +163,19 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-17" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Diagramas P&amp;amp;ID de las etapas elaborados&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-781" y="400" width="183" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-18" value="2.1.1.1.1. Proceso de producción investigado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-18" value="2.1.1.1.1. Proceso de producción investigado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1964.5" y="560" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-19" target="BgfKHeFuY2_l_r2EsFXZ-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-19" value="2.1. Interacción entre los componentes establecida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-19" value="2.1. Interacción entre los componentes establecida" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1997" y="320" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-20" target="BgfKHeFuY2_l_r2EsFXZ-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-20" value="2.1.1.1. Procesos y metodos de producción seleccionados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-20" value="2.1.1.1. Procesos y metodos de producción seleccionados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1994.5" y="480" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-31" target="BgfKHeFuY2_l_r2EsFXZ-33" edge="1">
@@ -184,13 +184,13 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-31" target="BgfKHeFuY2_l_r2EsFXZ-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-31" value="2.2.1.1. Usuario capacitado en Tecnomatix" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-31" value="2.2.1.1. Usuario capacitado en Tecnomatix" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1558" y="400" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-33" value="2.2.1.1.1. Fuentes de Siemens consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-33" value="2.2.1.1.1. Fuentes de Siemens consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1696" y="480" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-34" value="2.2.1.1.2. Fuentes adicionales consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-34" value="2.2.1.1.2. Fuentes adicionales consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-1406" y="480" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-38" target="BgfKHeFuY2_l_r2EsFXZ-39" edge="1">
@@ -199,7 +199,7 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-38" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Siemens NX&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-1087" y="400" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-39" value="2.3.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-39" value="2.3.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=light-dark(#FFFF00,#FF70FF);" parent="1" vertex="1">
           <mxGeometry x="-1102" y="480" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-41" value="2.3.1.2.1. Comunicaciones utilizadas descritas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
@@ -214,7 +214,7 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-47" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.3.2.1.1.1.&amp;nbsp;&lt;/span&gt;Usuario capacitado en Studio 5000&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-579" y="560" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-48" value="2.3.2.1.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-48" value="2.3.2.1.1.1.1. Fuentes otorgadas por el Ing. Ubaldo estudiadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=light-dark(#FFFF00,#FF70FF);" parent="1" vertex="1">
           <mxGeometry x="-575" y="640" width="212" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-57" target="BgfKHeFuY2_l_r2EsFXZ-58" edge="1">
@@ -238,22 +238,22 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-61" value="2.4.2. Modelado en RobotStudio realizado" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-68" y="320" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-62" value="2.4.1.1.1. Riesgos identificados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-62" value="2.4.1.1.1. Riesgos identificados" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-292.5" y="480" width="141" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-63" target="BgfKHeFuY2_l_r2EsFXZ-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-63" value="2.4.1.1. Parametros de seguridad establecidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-63" value="2.4.1.1. Parametros de seguridad establecidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-312" y="400" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-67" target="BgfKHeFuY2_l_r2EsFXZ-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-67" value="&lt;div&gt;2.4.2.1. Usuario capacitado en Robot Studio&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-67" value="&lt;div&gt;2.4.2.1. Usuario capacitado en Robot Studio&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-86" y="400" width="176" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-68" value="2.4.2.1.1. Fuentes otorgadas por el Ing. Ricardo consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-68" value="2.4.2.1.1. Fuentes otorgadas por el Ing. Ricardo consultadas" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-103.5" y="480" width="211" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-46" target="BgfKHeFuY2_l_r2EsFXZ-47" edge="1">
@@ -265,7 +265,7 @@
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-74" value="2.3.2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Comunicación con el sistema SCADA propuesta&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-574" y="320" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-82" value="1.1.2. Roles repartidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
+        <mxCell id="BgfKHeFuY2_l_r2EsFXZ-82" value="1.1.2. Roles repartidos" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#82b366;fillColor=#FFFF00;" parent="1" vertex="1">
           <mxGeometry x="-2326" y="320" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BgfKHeFuY2_l_r2EsFXZ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BgfKHeFuY2_l_r2EsFXZ-84" target="BgfKHeFuY2_l_r2EsFXZ-82" edge="1">
