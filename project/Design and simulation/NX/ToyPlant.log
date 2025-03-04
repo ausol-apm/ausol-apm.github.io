@@ -1,0 +1,448 @@
+﻿STEP to UG
+! INFO-     NX STEP AP214 - V2306.9160
+! INFO-      
+! INFO-     Start of Translation: 28-FEB-2025  10:27:01 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\Inventor\NXModeling\ToyPlant.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        ToyPlant.stp
+! SUMMARY-  Date             2025-02-28T22:24:01-05:00
+! SUMMARY-  Author           yovan
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v20
+! SUMMARY-  Orig_System      Autodesk Inventor 2025
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   3098
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   5494
+! SUMMARY-  b_spline_curve_with_knots ..................................:   1255
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:      2
+! SUMMARY-  b_spline_surface_with_knots ................................:    334
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:      3
+! SUMMARY-  cartesian_point ............................................:  46645
+! SUMMARY-  circle .....................................................:   2591
+! SUMMARY-  closed_shell ...............................................:     50
+! SUMMARY-  conical_surface ............................................:     13
+! SUMMARY-  context_dependent_over_riding_styled_item ..................:      3
+! SUMMARY-  context_dependent_shape_representation .....................:    100
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
+! SUMMARY-  cylindrical_surface ........................................:   1111
+! SUMMARY-  dimensional_exponents ......................................:      1
+! SUMMARY-  direction ..................................................:  14556
+! SUMMARY-  edge_curve .................................................:   7422
+! SUMMARY-  edge_loop ..................................................:   3255
+! SUMMARY-  ellipse ....................................................:      6
+! SUMMARY-  face_bound .................................................:    157
+! SUMMARY-  face_outer_bound ...........................................:   3098
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     36
+! SUMMARY-  item_defined_transformation ................................:    100
+! SUMMARY-  length_measure_with_unit ...................................:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:   3568
+! SUMMARY-  manifold_solid_brep ........................................:     50
+! SUMMARY-  mapped_item ................................................:      1
+! SUMMARY-  next_assembly_usage_occurrence .............................:    100
+! SUMMARY-  oriented_edge ..............................................:  14844
+! SUMMARY-  plane ......................................................:   1116
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:     35
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     35
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:     35
+! SUMMARY-  product_definition_shape ...................................:    135
+! SUMMARY-  product_related_product_category ...........................:     35
+! SUMMARY-  representation_map .........................................:      1
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:    100
+! SUMMARY-  shape_representation .......................................:     35
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  spherical_surface ..........................................:     17
+! SUMMARY-  toroidal_surface ...........................................:    504
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     36
+! SUMMARY-  vector .....................................................:   3568
+! SUMMARY-  vertex_point ...............................................:   4469
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         118022
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 28-FEB-2025 10:27:02 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:11 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Inferior
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:11 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\rueda
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Moto_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Moto
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\TechoCasa
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\CasaJugueteAPM_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Puerta
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\CasaJugueteAPM_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\CasaJugueteAPM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:13 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\PiezaTimon
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:14 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Timon
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:14 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Piezabarcosuperior
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:14 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\OutMold
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:14 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Sensor
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:    11
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             11
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:14 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Enbolo_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:14 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Contenedor_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Camera
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Embolo
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Contenedor_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\ConveyorS&F
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     2
+! SUMMARY-  Solid/Sheet .................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Caja grande_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Caja grande
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Enbolo
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\Contenedor
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\ConveyorsStage2-3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:    11
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             11
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\D
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\PneummaticActuator
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\biggerAct
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\PneummaticActuator_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:15 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\EnsamblajeCasa
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:16 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\EnsamblajeCasa_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:16 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\EnsamblajeMoto
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:16 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\EnsamblajeMoto_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:16 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\BarcoFinal
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 28-FEB-2025  10:27:16 PM
+! INFO-     Filing Part ..: C:\Users\yovan\Desktop\APM\ausol-apm.github.io\project\Design and simulation\NX\ToyPlant.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    71
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             71
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        50
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        50
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 28-FEB-2025  10:27:17 PM
+! INFO-      
