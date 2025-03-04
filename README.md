@@ -11,4 +11,5 @@ Se optó por montar la página web en Google Sites, para acceder a ella dirigirs
 
 *Automatización de Procesos de Manufactura  
 Universidad Nacional de Colombia  
-Sede Bogotá*
+Sede Bogotá  
+2024-2S*
