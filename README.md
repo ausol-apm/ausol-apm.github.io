@@ -1,5 +1,5 @@
 **AUTOMATION SOLUTIONS - AUSOL**  
-Propuesta de automatización de linea de producción de 4 juguetes.
+Propuesta de automatización de linea de producción de 3 juguetes, para la empresa _Bricajo Toys_.
 
 **Integrantes**  
 - Yovany Esneider Vargas Gutierrez
